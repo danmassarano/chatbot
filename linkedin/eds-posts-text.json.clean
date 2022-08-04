@@ -1,0 +1,743 @@
+[
+  {
+    "text": "Unusually for me,  a question:\n\nCTEs are often used to ensure cleaner, more readable code. When deep into MS SQL Server, I remember writing loads of test examples to prove that CTEs did not introduce a negative performance impact. \n\nNow, I see the default position of \u201cclean SQL gurus\u201d stating that CTEs should be adopted, at all times. But it\u2019s the world, so it\u2019s cool just to repeat someone else\u2019s opinion, right? That\u2019s what helps us earn the big bucks\u2026\n\nHas anyone performed this analysis on all modern database engines? I recall scenarios within  where CTEs performed significantly worse than sub queries\u2026 but not sure if this is still the case. \n\nAs much as is important, I want to make sure it isn\u2019t just adhered to generally, whichever database engine I\u2019m using."
+  },
+  {
+    "text": "It almost feels as though the industry is getting its shit together. People are talking about data modelling again (rather than just defecating into a magical), it appears that critical thought is being applied to tooling choices (\u201cYou spent HOW MUCH running a query in BigQuery?!) and tools that focus on the productivity of those oh-so-expensive  you hired are now top of the agenda. \n\nIsn\u2019t fashion funny? 90s clothes are back in fashion, as are the fundamentals that applied in the late 90s in the data world. \n\nIt\u2019s all quite tiring. I was doing this data stuff way before it was fashionable. Please\u2026 don\u2019t focus on the tech. Or the new fashionable data architecture (I guarantee that 95% of businesses don\u2019t need to worry about that stuff. Ever.). Or, indeed, the new fashionable tool. \n\nJust focus on getting the right data into the hands of the people who can make a difference. Automate what you can. And above all else; remember that data is a fickle creature. Treat it badly, and it\u2019ll help you make some genuinely terrible decisions\u2026 which is as true today as it was two decades ago."
+  },
+  {
+    "text": "I\u2019m a fairly typical \u201cfounder\u201d. A bit of a pace-setter, driven, keen on getting shit done well, and very keen on the next amazing thing. Often, I\u2019m too focussed on goals, rather than on the team. \n\nI\u2019m lucky to have an amazing team around me, but I want to put a shout out for Ade Lingard (who is basically part of the team now!!) \n\nHow do I really prepare my team for their new roles? How can I set a direction, and get support from an experience exec, to help my team get there?\n\nThat\u2019s where Ade comes in. A hugely experienced exec, but focussed on coaching analytical folk, rather than directive mentoring. \n\nOver a year down the line, and I can see such a huge transformation in my team. They were always amazing, but, as Ade would say, they are now {Insert name here} +.\n\nThat + makes a huge difference. It\u2019s moved people from competence to excellence, and from excellence to exceptional. \n\nIf you employ analytical folk, and need to help your future leaders grow\u2026 get in touch with Ade Lingard !"
+  },
+  {
+    "text": "Evening LinkedIn peoples!\n\nHere\u2019s a great role, if you\u2019re into data and getting to grips with tough problems. Plus, you\u2019ll be working closely with me\u2026 so what\u2019s not to like? (Disclaimer: the role actually is reporting into Simeon, so if the thought of working with me made you a bit sick, then don\u2019t worry!)\n\nAs we grow, we\u2019re putting our key people into positions where they can genuinely change organisations through data. There\u2019s a lot of  pressure, but also a huge space for you to grow into. \n\nIf nothing else, get in touch. More than happy to have a chat."
+  },
+  {
+    "text": "Since lockdown, each week (or now, each fortnight) we hold a company wide update. It\u2019s become a really important part of my schedule - and for the first time in a very long time, I missed it.  We call these meetings our Diaspora. \n\nIt\u2019s a bloody good thing we have people like Dimoklis Despotakis PhD, MBA (yes, he genuinely has that many letters after his name) ready and waiting. It was his first time to lead the Diaspora, and he smashed it. \n\nGreat, mate. You\u2019re a good egg."
+  },
+  {
+    "text": "It is with great pleasure that I have now hung up my CTO boots, and handed over the reins of all our amazing and team The Data Shed to Edward Hiley.\n\nI'd love to say they are big boots to fill, but I'm size 8 1/2 on a good day.\n\nThe Shed wasn't big enough for two CTOs, so now I move onto my next challenge - that of Chief Commercial Officer. We're still not quite sure what that means, but it seemed like a better option than 'Chief Meddler'."
+  },
+  {
+    "text": "It\u2019s been a long old decade. Rough at times, but amazing in others. \n\nToday was wonderful. During one of our regular company updates, we had one of those moments that warms the soul of even the most hardened founder. \n\n\ud83d\udca5Simeon Souttar, Jen Black  and Daniel Fearn were promoted to key positions within our senior management team. \n\nI\u2019ve been in the  trenches with all of them over the last few years, and it makes me so happy that these three, along with the rest of the senior team are the ones to build the next stage of The Data Shed. \n \nI usually say that \u2026 but it\u2019s also too short to work with shit people. I\u2019m very glad you\u2019ve decided to spend the last 4-5 years with us, folks. You\u2019ve made the Shed a place I\u2019m proud to be."
+  },
+  {
+    "text": "As comes to a close in the UK, I have a horrible feeling that all the tweets and posts I\u2019ve seen will only become the \u201cthoughts and prayers\u201d of inaction. \n\nI\u2019ve not seen a single post from a bigoted white man running a company saying \u201cf*ck it. I\u2019m convinced. I\u2019ll pay women the same as men\u201d yet. \n\nIf you\u2019ve posted today, well done. If you haven\u2019t done anything other than post, then please turn your \u201cthoughts and prayers\u201d into some sort of action and let\u2019s resolve this ridiculous debacle of inequality."
+  },
+  {
+    "text": "#scaling  a business is hard. Horrible, at times. However, some days there\u2019s light at the end of the tunnel. \n\nToday, I sat down with Edward Hiley and George Verney , working through a requirement for a client. I had an idea about how it could work. I was wrong. \n\nBetween them, they came up with a solution much simpler, more elegant than mine. And in half the time I\u2019d taken to draw my Shonky Whiteboard Sketch\u2122\ufe0f\n\nScaling is horrible. But when you know you\u2019ve got a team behind you who are 100x better than you, then you know that the big challenge is now a lot smaller. \n\nFanks chaps. Over to you."
+  },
+  {
+    "text": "Evening folks. I\u2019d like to draw your attention to one of The Shedders, Benjamin Milner. \n\nIn September, he\u2019ll be cycling 1k miles to raise money for a great charity. SNAPS supports one of our Shedlets (children of Shedders!), so I\u2019d appreciate it if you could read Ben\u2019s story, and contribute if you can."
+  },
+  {
+    "text": "The most underrated, undervalued and scarce skill in and right now? \n\nI\u2019m my opinion, it\u2019s the ability to take a big scary thing, and break it down into simple things. AND THEN step back and make sure that the simple things do the original big scary thing. \n\nDoing the first bit is hard. Making sure the second bit happens is very tough. But that\u2019s a sign of a good. \n\nThe market is crazy. Don\u2019t worry about knowing the shiny tech or the latest fad. This is the skill that makes a genuine difference."
+  },
+  {
+    "text": "Come and join the mayhem! Let me start by making it clear - this isn\u2019t for someone who wants to pick the phone up occasionally and chat. \n\nThis role is going to be pivotal to the growth of The Data Refinery, so you\u2019ll need to come with your sleeves rolled up and be ready to help us build from the ground up. \n\nThe Refrigerators (as I affectionately know them\u2026 initially autocorrect, but it stuck in my head\u2026!) are doing some amazing things, and have some big ambitions. \n\n#lifestooshortforashitjob"
+  },
+  {
+    "text": "TL;DR. 2020 was crap. 2021 was less crap, but we didn\u2019t find time to recover from 2020. \n\nI\u2019m genuinely excited about 2022. I\u2019m not good at inspirational stuff\u2026 but this year is going to be the year of rolling sleeves up, kicking doors down and making awesome things happen. Get in our way if you dare. \n\nLove all our Shedders. This is the year of making matter."
+  },
+  {
+    "text": "Here\u2019s to the start of a great partnership!\n\nNo secret recipe\u2026 just a driven client with clear objectives, an awesome goal, and bunch of geeks. Time to get to work\u2026\n\n#lifestooshortforashitjob"
+  },
+  {
+    "text": "Anyone else out there fancy trying out The Data Refinery? We\u2019d be more than happy to talk to you!\n\nImagine if you could, at the click of a few buttons, gain  from your  (other platforms are available\u2026), ERP, marketing automation and Ad platforms! Well\u2026 that\u2019s what we do."
+  },
+  {
+    "text": "I really struggle with the announcement that BoJo will be paying a grand total of \u00a33k more for science and maths teachers. \n\nYears ago, I set my sights on being a German teacher. I love languages, and would have loved to have been able to share that with others. But\u2026 it turns out that I\u2019d be paid less than I would earn as a chef. \n\nIt saddens me to think that Mrs Childs and Mr Walsh did their jobs on the salaries that we deem to be \u201cappropriate\u201d to their worth. They, amongst many others inspired me to learn things that have made me capable of doing what I do today. \n\nIf you don\u2019t value your; you won\u2019t get great teachers. One awesome teacher can create generations of amazing careers - so why do we pay them a pittance. \n"
+  },
+  {
+    "text": "Replace \u201cnotebooks\u201d with \u201cExcel files\u201d and \u201cworkspace\u201d with \u201cshared drives\u201d\u2026 \n\nThe tools is useful, but it does feel as though it\u2019s helping paper over cracks that shouldn\u2019t exist. \n\nNotebooks are fantastic ways for analysts and engineers to collaborate - but shouldn\u2019t have an infinite life, in my opinion. \n\nPlease\u2026 if you\u2019re using, think about your processes before letting this sort of thing occur!"
+  },
+  {
+    "text": "What makes me proud? People like Sallie Holt . Finding the time to smash the London Marathon isn\u2019t trivial.. but doing that alongside being a mother, an awesome leader at the Shed, and finding sleep\u2026 well. That\u2019s something. \n\nWell done mate. All of us at The Data Shed are hugely proud of you."
+  },
+  {
+    "text": "Following a really successful first session by Anna today, I'll be attempting to follow in her (admittedly, painfully small) shoes next week (28th Sept at Barclays Eagle Lab at 6pm) with our partners over at Eventum Orthopaedics Ltd, talking about the K'need for in Surgery (see what we did there?!).\n\nI'd strongly recommend you come along - if nothing else, you'll get to see me pretend to act like a grown up in a panel discussion which is on a par with 'being the only dad at the kids birthday party' in terms of level of discomfort. \n\nSign up using the link in the comments!"
+  },
+  {
+    "text": "An exciting day today\u2026 both Edward Hiley\nand James Mackenzie join the The Data Shed as Director of Engineering and Principal Consultant respectively. \n\nThey bring a wealth of experience and energy to the Shed, setting us up for our next period of growth. Taking over the  world!"
+  },
+  {
+    "text": "\"Become a engineer from scratch in 4 weeks!\" I read this earlier today. It made me unreasonably sad about our industry.\n\nYes. You can learn something in 4 weeks. If you learnt to drive a car in 4 weeks, by the end you'd know what all the pedals are called, what they do, and the typical patterns you need to interact with all the controls to make it safely around a known route. \n\nA *good* data engineer knows that it's probably best to fill up now, even though the fuel warning light isn't on. They know that, although the speed limit is 40 here, they should probably be careful as it's summer, and kids play around this road. They know that, sometimes, you need to go faster to avoid a collision, not just stop dead. \n\nThat's. That's what makes them better. Not because they can type faster or know the coolest library. It's because they can give a fair prediction about what might happen, what could happen, or where potential pitfalls are. \n\nPlease let's not devalue experience in the and industry. With the rate of change I can see happening right now, experience can help us all avoid driving straight over a cliff."
+  },
+  {
+    "text": "What Are Saturdays in summer for?! Sports Day, of course! \n\nThe Shedders had a fab time\u2026 and had a great demonstration of scaling out winning over scaling up\u2026 (sorry, Will!). \n\nIt\u2019s fun at The Data Shed. Too fun at times\u2026 plenty of aching legs today! \n\n"
+  },
+  {
+    "text": "The best time to get some good, quiet, undisturbed work time in? 5pm on the 29th June, 2021\u2026 apparently. Something about foot-the-ball?!\n\n"
+  },
+  {
+    "text": "That moment when you realise your whimsical *internal only* out of office message is being sent to everyone"
+  },
+  {
+    "text": "I can\u2019t begin to explain how critical these consultant roles are to us. but I\u2019ll try, nevertheless!\n\nYou are the conduit, translator, mediator and idea-extractor for our clients. You\u2019re the one who will link the commercial objectives to the cool thing we build. \n\n\u201cWe do it this way\u201d isn\u2019t something we say. Every project is different, because every client, their needs, objectives and risks are different. Your job is to work all those things out and help make meaningful, long term change a reality. \n\nGet in touch with Daniel Holden for a chat!\n\n#lifestooshortforashitjob"
+  },
+  {
+    "text": "Afternoon folks!  Anna Sutton is looking for willing victims please let her know if you could spare some time in June for what should turn out to be some really interesting insight into changing perceptions of"
+  },
+  {
+    "text": "Dear LinkedIn! It's really terrible news over in Bradford today, with the demise of Provident Financial Group 's Consumer Credit Division.\n\nIf any Project Managers, Business Analysts, Data Engineers or Techies want to have a chat about life after Prov, please give me a shout. We're on the look out for many new Shedders so there might be a silver-lining out there for you! If we don't have the right role for you, I'll happily use my friendly network to see what can be done to help.\n\n#lifestooshortforashitjob "
+  },
+  {
+    "text": "Happy Star Wars day, LinkedIners! \n\ncredit to Daniel Fearn for the disturbing image. "
+  },
+  {
+    "text": "Morning folks! A few of us at The Data Shed are taking part in the Tour de Walkshire (nice work, Welcome to Yorkshire!) to raise money for Yorkshire Cancer Research.\n\nIt's a great cause, and will hopefully mean that I can lose some of my lockdown girth! If you could spare some cash for the great work that Yorkshire Cancer Research do, it'd be greatly appreciated!\n\n"
+  },
+  {
+    "text": "Anyone want an uplifting story? Do some reading about this recent award winner, his backstory, and his incredible achievements. \n\nWell done Wolfenden !\n\n: Ben and I went to school together, and I taught him all he knows."
+  },
+  {
+    "text": "When we started The Data Shed : \"Python? Who wants to use Python?\". Also overheard at a conference \"I can see why it's nice to code with but I'd never put it into production\". At this point in time, people joined the Shed for the exciting opportunity to actually use Python professionally!\n\nFast-forward to 2021 Everyone: \"We need Python! You can code in Python? Here's a massive bag of cash, a free Porsche and you only need to work 2 days a month!\" Now, finding Python engineers is like me trying to fit into those pre-lockdown trousers (very hard).\n\nAs much as it pains me to say this (I do bloody love Python), this feels a bit hype-like right now. Let's not forget - Python isn't the important thing it's the pair of hands that make it do its magic. \n\nThe point about Python is that it's easy to learn and you can be productive quickly (aside from all the lovely data processing skillz which are a big positive). The barriers to entry are fairly low so why all the screaming about 'must know Python' in job ads?!\n\nPlease recruitment people and hiring managers: let's focus on the people we need to find, rather than which particular tools they have in their bag right now. If I can learn Python, anyone can \n\n\n\n"
+  },
+  {
+    "text": "Help! I\u2019m being held hostage on holiday. Please send help. Failing that, please send me some data engineers, as we need lots. \n\nIf I don\u2019t make it through this enforced relaxation it\u2019s been nice knowing you all. \n\n#lifestooshortforashitjob"
+  },
+  {
+    "text": "Come listen to the thoughts of an exciting, interesting CTO (and me!). I really enjoyed this trip down memory lane - getting 'into tech' can be really challenging nowadays, so I hope my barely-coherent mutterings are of use to someone.\n\nThanks for having me, Liam!\n\n#podcast "
+  },
+  {
+    "text": "Afternoon LinkedIn!  We have looooads of Data Engineering roles open at the moment some fab new clients, and buckets of data pipelines, analytics and machine platforms to build!\n\nI need people who aren't satisfied by just using funky tech to put data into an expensive box I need people who see data engineering as a way to improve lives, customer experiences, and our customers' performance.\n\nIf that sounds like you, or someone you know, please get in touch \n\n#lifestooshortforashitjob  "
+  },
+  {
+    "text": "Some assume that all us geeks at The Data Shed do all day is talk about data Which is often true. However, it warms my heart to see our resident Gas and Plumbing experts (Aaron Williams and George Verney ) helping out a Shedder in need. \n\nWho would have thought that data nerds could be so useful when it comes to a leaky valve?\n\nIt\u2019s nice to see that our Shedders continually and consistently give so much of a sh*t about each other. \n\nIn unrelated news, a boiler has exploded and sunk a house in West Yorkshire today. \n\n#lifestooshortforashitjob"
+  },
+  {
+    "text": "2021 has been a bit of a whirlwind so far at The Data Shed. We're working with some really exciting and fun clients, and need some more Shedders to come help us!\n\nWe have loads of roles available right now:\n- Senior Consultant: Lead at the pointy end of an engagement. Work out what the clients want, plan how they need to get there, and collaborate with the Engineering and Delivery Teams to make it a reality\n- Senior/Mid Data Engineers: Using industry-leading tools, approaches and frameworks, we work to deliver high-quality, well shaped and valuable data to our end clients.\n- Business Analysts: Sometimes what the client says they want isn't what they actually need. Your job is working out the difference between the two!\n- Technical Operations Engineers: Amateurs hear the alert go off and fix the problem. Real professionals get together to make sure it never happens again, and build tools and procedures to make sure the service we build for our clients doesn't go down.\n\nIf any of those float your boat, please get in touch! "
+  },
+  {
+    "text": "Thanks to Paul Manship for starting the thread on Teams today, with photos of what our lives were like when working in the office together at The Data Shed. \n\nIt's easy to forget the marvellous, spontaneous moments that happen in an office. \n\nThose are the things that make people work somewhere. Not fancy pictures of aid packages (I can buy mediocre biscuits anywhere) or talking about 'fully remote roles' (I like to occasionally wear trousers and talk to real humans, thanks). \n\nThanks to all the Shedders. You make the stress of running a business worthwhile. And to all you new Shedders - hold on. A return to normal Shedlife is coming. It's flipping awesome. \n\n#lifestooshortforashitjob "
+  },
+  {
+    "text": "This is really great news. Mostly because it's a bunch of little folks joining forces to provide expert support to those lovely folks at the NHS, but also because of all the hard work that our various teams have done over the last few years to prove that we're worthy of a seat at the grown up table.\n\nI can't wait to see how things develop over the next four years.  It's remarkable to think that a mere handful of years ago, there were four of us at The Data Shed sat in a small office, talking about how to change the world. Time certainly flies when you're having (something resembling) fun.\n\nThis feels very much like a sign of the maturity and growth of our businesses. We're ready to take on whatever is thrown at us. In the spirit of Marvel: Like-minded SMEs Assemble!\n\nIt's probably also worthwhile mentioning that we're hiring. All the way through from junior folks wanting to learn the way of the Data Ninja (terms and conditions apply) to experienced and wise Principal engineers with the data scars to prove it. Get in touch to learn more!\n\n#lifestooshortforashitjob "
+  },
+  {
+    "text": "So, the \u201cnew normal\u201d is here. Remote working, video chats, seeking a semi-functioning whiteboard tool that is our \u201cnormal\u201d now. \n\nBut.. normal like this is dangerous. All that hard work we went to in the early days of COVID-19 to make sure our team were ok - that stuff really still needs to happen. \n\nPlease, dear line managers, leaders, and just general nice humans don\u2019t let the boring nature of this life get in the way of looking after those you work with or care for. \n\nJust because it\u2019s \u201cnormal\u201d doesn\u2019t mean we can relax."
+  },
+  {
+    "text": "I used to be a terrible manager. I\u2019m not much better now. \n\nI focussed on tasks, not the person. I was worried about the outcome, and not the way we approached the problem. \n\nNowadays, I\u2019m on that  long road to becoming a respectable manager of people. As it turns out, managing people and building teams is hard. I\u2019ve failed more times than I\u2019d like to admit. \n\nBut whenever I think this way, I look to the people leading people leadership at The Data Shed: Anna; Clare, Roger, Simeon, Bianca, Daniel and Dimoklis and think I\u2019m glad I\u2019ve got better people than me leading the our Shedders development."
+  },
+  {
+    "text": "Today, Yorkshire. Tomorrow the world! (Or maybe just Lancashire). \n\n"
+  },
+  {
+    "text": "Hi LinkedIners! Could you spare a moment of your time to vote for The Data Shed in BusinessCloud\u2019s awards? Our Shedders are working really hard, and definitely deserve to win. Cos they\u2019re amazing. \n\n "
+  },
+  {
+    "text": "Wahey! Another award for The Data Shed ! We really should get somewhere better to put the silverware! \n\nOh.. and did I mention that we\u2019re hiring?! engineers, assemble!"
+  },
+  {
+    "text": "Folks please help? Ben\u2019s a wonderful chap and a personal friend."
+  },
+  {
+    "text": "I love my job. Some of my favourite people in the world are in this picture It\u2019s a privilege to be able to work with such  humans. \n\n#lifestooshortforashitjob"
+  },
+  {
+    "text": "A massive well done to Ben Wolfenden and Wolfenden  for their success at awards tonight. \n\nI\u2019ve known Ben since he was about 16, and taught him all he knows, so like to think it was a win for me too. \n\nWell done mate. My invoice is in the post."
+  },
+  {
+    "text": "Thanks to all those who attended our webinar The Data Shed  this morning for! If you're interested in hearing it again (Apart from the bang from my chair when I moved, due to an 'equipment failure'.. that's a bit loud!), you can do so here:  we didn\u2019t quite get the boy band look completed with a \u201crise at the key change\u201d. Must try harder next time."
+  },
+  {
+    "text": "Fancy listening to me and Andy Thurgood talking about data processing platforms? We\u2019ll be sharing war wounds from the Hadoop days, and talk about what we\u2019ve been tinkering with over the last couple of years at The Data Shed !\n\nHave a nosey here:  "
+  },
+  {
+    "text": "Right folks current roles we have open are\n\n-- Perm Python peoples: Data engineers who love a bit of Python, *but* love other languages too. We don't have space for one-trick ponies! Typical tools used are Python, Java, JavaScript, Terraform, SQL (in a variety of flavours) and many others. \n-- Contract dotnet core, JavaScript (with some native app building using React Native). \n\nGet in touch! (no agencies at this stage, please)\n\n#dataengineering "
+  },
+  {
+    "text": "It's happening again. It's almost as regular as clockwork. Every so often, the stress levels rise. We're all too busy and then I take on a client project myself, because everyone else is too busy. I bloody love the project but the context switching is more than a little challenging.\n\nEvery time, the outcome is the same. The Data Shed grows again. Last time this happened, we went from 22 to 40. Any one want to venture a guess as to what we'll grow to next?! \n\nIt's tough right now. But I have a hand-picked Shed team behind me. They're awesome and probably quite tired. \n\nIf you're looking considering a move in the not-so-distant future, look me up. We're going to need Leeds' finest and experts to help us on the next leg of our journey. (no agencies right now, please!)\n\nDon't forget"
+  },
+  {
+    "text": "This is going to be an awesome opportunity for the right person. Get applying the focus xTEN have on being more awesomer (yes. That is a word.) than traditional MSPs is inspiring, and hugely ambitious. Buckle up for a fun ride!\n\n#lifestooshortforashitjob"
+  },
+  {
+    "text": "It\u2019s a big week this week. It marks 4 and 5 years respectively since Will Johnson and Roger Coram joined The Data Shed  \n\nThey have both played a huge part both in doing some amazing things with data, and helping us grow as an organisation. \n\nAs the lovely Borg say \u201cWe will add your  distinctiveness to our own\u201d. I think something like that has happened at the Shed, because the distinctiveness these two have added have made us an awesome place to work. \n\nThanks, chaps. It\u2019s been a blast, and a genuine privilege see how much you\u2019ve both grown over the years. I\u2019m very much looking forward to see what the next few years bring. \n\n#lifestooshortforashitjob"
+  },
+  {
+    "text": "I promise I\u2019ll try to minimise the ranting! Come on down, dear LinkedIners. It should be a fun session. \n\nDisclaimer: The profile picture is from long before Lockdown and the Ronacoaster, and therefore bears no real resemblance to me I'm significantly more dishevelled now. \n\n#data"
+  },
+  {
+    "text": "Thanks, Kane Fulton ! Nice article. The job\u2019s not done yet though - culture is a living, breathing thing and needs lots of awesome people to keep it growing, improving and moving. \n\nOh.. and did I mention we\u2019re hiring?! (No agencies please!)\n\n#lifestooshortforashitjob"
+  },
+  {
+    "text": "This \u201cliving at work\u201d malarkey (previously known as \u201clockdown\u201d, or \u201cworking from home\u201d) is starting to get a little wearing. \n\nI just hope the feeling of living at work doesn\u2019t go on to influence how we view remote working in the future - for many, it will be significantly different to this current, strange existence."
+  },
+  {
+    "text": "I've spent most of the last few days seemingly breaking AWS Athena largely receiving this fun \"Query exhausted resources at this scale factor\". \n\nAnother fun one is the arbitrary 30 minute limit to queries. Because no one has ever wanted to write a query running over billions of rows that takes more than 30 minutes to run, have they?\n\nWe at The Data Shed do like a serverless data platform; but knowing which tool works for a job is critical. I don't think I'll be using Athena for much complex querying in future"
+  },
+  {
+    "text": "Are any pros looking for a role as a data engineer? We've got a couple of spaces for people who:\n1. Know their Kimball from their Inmon\n2. Understand the importance of metadata\n3. Want to build high-performance data pipelines to deliver high-quality data into the hands of our customers\n4. Firmly and passionately commit to live by our value \"Don't be a dick\".\n\nWang your CVs over  or get in touch to find out more!\n\n#databricks"
+  },
+  {
+    "text": "Coming soon the ramblings of an early-morning, lockdown-addled, campervan-hiding me!\n\nFor those who know me well, don\u2019t bother starting the swear word drinking game. I was very well behaved! \n\nThanks for having/tolerating me, Sandra and Elly!\n\n "
+  },
+  {
+    "text": "We at The Data Shed  are incredibly proud to feature on GP Bullhound \u2018s top 100 northern tech awards today. \n\nIt just goes to show what can happen when you stick a bunch of clever, determined and friendly geeks in an office together. \n\nLet\u2019s break into the top 10 next year.! \n\n"
+  },
+  {
+    "text": "Eid Mubarak, LinkedIn. \n\nI\u2019m sure it\u2019s been a strange one for you all, but hope you\u2019ve had a great weekend feasting! "
+  },
+  {
+    "text": "Just a few more details on the contractor we're looking for\n\nThe project is working on combining Azure, Databricks and Snowflake in a data analytics pipeline, providing rich insight from customer data. \n\nExperience of Pyspark, Terraform, Azure and SQL is what we need!\n\n#NoAgenciesPlease"
+  },
+  {
+    "text": "Hello, contractors! I\u2019m looking for an excellent Pythonista to help out on a 3-month project; starting imminently. \n\nAny takers? \n\nNo agencies at this stage, please!\n\n#leeds (or contract, obvs)"
+  },
+  {
+    "text": "A huge round of applause for the BBC and iPlayer teams tonight! I haven\u2019t seen the numbers, but I imagine hosting the show must have been a great endeavour. \n\nIf there had been an outage, it would have been newsworthy. For me, it\u2019s newsworthy knowing the effort it must have taken to keep things working so smoothly. \n\nThanks to all of you keeping iPlayer (and other streaming services) working to keep us and our families sane!\n\nWell done folks!"
+  },
+  {
+    "text": "I'm dreading tomorrow. I've got 5 meetings, a good 10 hours of work to do, and two kids at home.\n\nIf COVID-19 has taught me anything, right now it's that our previous way of working was fragile. \n\nI'm sure there are plenty of chaps out there wearing suits who will be happy to tell me that things will go back to how they were but you're wrong. They won't. \n\nFragile things get broken. Sometimes they can be remade, other times, we find a new way.\n\nI'd love to find one that includes me seeing my boys for more than 2 hours a day. \n\nLet's make a new \"working day\", eh?\n\n#lifestooshortforashitjob "
+  },
+  {
+    "text": "It turns out that we don\u2019t just have experts at the Shed, but bread experts too!\n\nStay tuned for Bevan's next instalment of Sour Dough for Beginners!"
+  },
+  {
+    "text": "What a day. We closed the doors of the Shedquarters today, with all of the team working remotely for the foreseeable future. \n\nIt\u2019s a confusing, scary time right now. The world and markets are in lockdown and chaos. \n\nI know terrible times are here, and more are to come. However, let\u2019s try and find something positive to focus on - to help avoid focusing solely on the negative of the current circumstances. \n\nWouldn\u2019t it be amazing if, as a result of this pandemic, we actually harnessed the technology available to us to *improve* how humans communicate and collaborate? \n\nI know technology has made it possible to talk across the world easily - but do we do it well? Does it genuinely improve our lives, or just make it possible for Cambridge Analytica to steal our data, and for arm-chair trolls to spoil peoples\u2019 lives?\n\nLet\u2019s focus on genuine global collaboration. As we hoped with the advent of the Internet Super Highway, can we truly make it possible to collaborate meaningfully and productively globally?\n\nWhat are the chances that the human race can take our self-imposed isolation, and become capable of breaking down borders in a positive way?\n\n#covid19"
+  },
+  {
+    "text": "I work with a bloody awesome team at The Data Shed \n\n#lifestooshortforashitjob"
+  },
+  {
+    "text": "It still astounds me how many organisations and people think that, just because they can do 'tech', they can also immediately \"do data\".\n\n\"The team that built our website is now working on building our analytics platform\" doomed to fail. \n\nData isn't *just* engineering. If you have built some systems that store data, you can't immediately just turn your hand to being an effective Data Engineer/Analyst/scientist. It involves a different mind-set, and approach to problem solving that isn't always prevalent in traditional ticket-and-sprint oriented tech teams.\n\nI've learned lots of *engineering* skills over the last decade or so - they're valuable (and fun to learn!), but they're infinitely less valuable than the commercial experience, business process knowledge and understanding of human behaviour I've managed to gain.\n\nI'm not suggesting that people can't pivot their careers into a data role - but I do wish that organisations would stop thinking that the 'transition' into data is a trivial thing, just because they can already code.\n\n#data "
+  },
+  {
+    "text": "Warning - This post isn't about another award for The Data Shed, it's about instead!\n\nWe're looking for some more senior and principal software and data engineers to join our existing squads, and to help grow new ones. \n\nAt it's very simplest, we need people who are capable of understanding a complex domain, collaborate with our Shedders and clients, build pragmatic, imaginative and elegant solutions, and fix data problems others can't.\n\nHave a nosey here  or get in touch to have a chat over a coffee!\n#data   "
+  },
+  {
+    "text": "Dear LinkedIners! One of our lovely Shedders is taking 12 months out over in Melbourne, and is going to need a job to help him pay for all the shrimps he\u2019s going to be throwing on his Barbie!\n\nIs anyone able to help Joshua Newman?\n\n"
+  },
+  {
+    "text": "Brilliant \u201center title here\u201d!\n\nI\u2019ll refrain from commenting on the implicit gender bias"
+  },
+  {
+    "text": "Another year, another Christmas party. \n\nI was struck tonight by how much I felt for every single member of my team, and never felt so happy. \n\nLooking at every single Shedder, and seeing how amazing they are, how much they\u2019ve grown since they joined us, and being able to see an amazing future for them all that makes this whole thing worth while. \n\nYou lot at The Data Shed are amazing. And I\u2019m so lucky to be able to work with you all."
+  },
+  {
+    "text": "We at The Data Shed  had a long chat about last week, and I\u2019d be interested in other people\u2019s views on this. \n\nOur view, is that the horrible, sick feeling in your mouth when you f*ck up should be a huge motivational factor for making you better at what you do. You should never regret making a mistake. \n\nIf you don\u2019t have the chance to make a mistake, then you have missed a huge opportunity to learn. As a result we should turn around and face that, rather than being afraid of it. \n\nOur new challenge is being able to push a release out on Friday at 4pm, then being able to walk away and go have a nice evening with your family.  \n\nI don\u2019t make many new year resolutions, but ^^ that is mine. "
+  },
+  {
+    "text": "A huge congratulations to the BBC for their efforts today in the UK General election. Great work putting data into the hands of the consumers, before, during and after the election. \n\nI\u2019d like to buy a beer for the tech team currently keeping your systems online - I can confirm that it is _not_ a fun job. Great work. \n\ncc: Matt Grest"
+  },
+  {
+    "text": "Afternoon Tech peoples of Leeds (and beyond!)\n\n The Data Shed is looking for the brightest and best in the region to help our next phase of growth. If you're a Principal Engineer, Analyst or Engineering Manager who loves to inspire those around you, please get in touch!\n\nWe help our clients better understand their customers - using a combination of cutting edge and tried-and-tested technology. \n\nCome have a chat or pop your details on here and we'll buy you a coffee! "
+  },
+  {
+    "text": "Afternoon LinkedIners!\n\nI'm looking for two contractors to lend their skills to help us deliver some projects:\n1. Python & SQL\n2. Java, TypeScript, AWS and Terraform stuff! \n\nIf you can offer your skills in either of the above roles, please get in touch asap. \n\nWe're paying excellent day rates, starting ASAP.\n\n#data"
+  },
+  {
+    "text": "Sponsorship, please LinkedIn Peoples!\n\n#data "
+  },
+  {
+    "text": "Not all people using data are doing it for nefarious reasons Cambridge Analytica don't reflect the majority of the rest of us data people! \n\nWe at The Data Shed and WANdisco certainly don't think so, anyway. \n\n I mention we're hiring..?\n\n#data"
+  },
+  {
+    "text": "I feel like all I do on LinkedIn is ask for help finding people!\nWe're also on the look out for some awesome Business Analysts. \n\nNice to see Simeon describing the Shed as a 'rocket ship' right now, I feel like Wile E Coyote with hanging on for dear life to a massive firework \n\nRemember. Number one rule. No d*cks. And for good measure, rule number two is just the same. \n\n#data"
+  },
+  {
+    "text": "We need all your monies for a good cause"
+  },
+  {
+    "text": "Ok dear LinkedIn Peoples! As always, I need your help. \n\nWe have a few Data Engineering roles we need to fill with people who:\n- Are not d*cks. At all times. \n- Love building things that make organisations better understand the customers they serve\n- Love fixing problems, not pointing out problems\n- Know that the language/framework/tool you use to fix a problem isn't the important thing. It's the fact that it's fixed that is important\n\nIf that's you, please get in touch for a coffee/chat/excessively formal interview (delete as appropriate): ed@thedatashed.co.uk\n\nAgencies need not apply. \n\n#data"
+  },
+  {
+    "text": "Huge thanks to everyone at the Leeds Data Platform User Group for having us last night. We had a blast.  For anyone interested, our slides have been shared here:       "
+  },
+  {
+    "text": "Andy and I are really looking forward to this event! Most importantly, I\u2019ve treated myself to a new clicker for our presentation. It has a laser pointer and everything\n\n#truepro"
+  },
+  {
+    "text": "Thanks for voting, LinkedIners! I knew I could rely on you! \n\n#data "
+  },
+  {
+    "text": "Tonight, we\u2019re raising a glass to the one of the most interesting and inspirational young men I\u2019ve met in a long time. After 2 years at the Shed, he\u2019s going travelling. \n\nIf you catch him when he comes back, then you\u2019re incredibly lucky. \n\nFor us at The Data Shed, we will sorely miss him. \n\nWe wish you all the best, Sam Bowen-Hughes  \n\n"
+  },
+  {
+    "text": "It\u2019s quite depressing to have to say this but \u201cprivate\u201d keys should be kept private. Not shared with every single user. \n\nIt\u2019s a true shame, but does highlight how easy it is to build an app nowadays, and how easy it is to get it wrong.\n\n#security"
+  },
+  {
+    "text": "Today is a very exciting day. Today, we celebrate Roger Coram's 4th anniversary with us at The Data Shed.\n\n4 years, countless projects, pretty much every sort of tech you can imagine, and he's been at the very centre of most of them. \n\nThanks, Roger. We wouldn't be where we are today without you.\n\n#data"
+  },
+  {
+    "text": "Dear Testers! Where are you? We need you! I\u2019d even go as far to say that we really, really want you! \n\nIf you\u2019re awesome at automating the discovery of the bugs the engineers leave for you as sign of their affection, then please get in touch. \n\nNo agencies, please. \n\n#testing."
+  },
+  {
+    "text": "Top 50, Ey? With you lovely LinkedIn people voting, I\u2019m sure we can get higher than that! Please vote, the welfare of our Shedders may be at risk if we don\u2019t win awards. \n\n"
+  },
+  {
+    "text": "Nice to see two of our fantastic engineers taking the time to learn more about in one of the Sheds at the Shed!\n\n"
+  },
+  {
+    "text": "It's an exciting week! We're delighted to welcome Victoria Baron (feels strange using your Sunday name) to The Data Shed! \n\nMay you days be full of code, randomness and excitement. \n\n#data "
+  },
+  {
+    "text": "I\u2019m not quite sure why they are dressed as matadors, but congratulations to George Verney, our newest FIFA champion!"
+  },
+  {
+    "text": "We had an wonderful day of festivities and sharing at the Shed today, celebrating Yorkshire Pride. \n\nHuge thanks to Reema, Hannah Varley-Fodden, Daniel, Steph and all of the other Shedders who contributed to making it so fun, informative and inclusive. \n\nI bloody love you lot. \n\n#ShedLife"
+  },
+  {
+    "text": "Dear LinkedIn people! We\u2019re looking for a specialist to add their skills to our team. \n\nYou\u2019ll be working on our SaaS product and client projects, automating everything in sight, working with our amazing engineers to ensure quality is baked into everything we do.\n\nLink below\n\n me a shout if you\u2019re interested- and please share if not!\n\nNo agencies, please. \n\n#testing"
+  },
+  {
+    "text": "In non-Shed news, this is amazing to hear.!"
+  },
+  {
+    "text": "Dear peoples who think that data warehouses are dying. read Bill's comment. It\u2019s the same conversation I have frequently. \n\nDon\u2019t conflate technology platforms with the functionality of a data warehouse. \n\n#data"
+  },
+  {
+    "text": "It was fantastic learning alongside these fine people. A great bunch, and was really impressed by Campuslife Limited. Let's talk collaboration soon, Simon!\n\nThanks to Steven Jones for sharing!\n\n#scale #"
+  },
+  {
+    "text": "This is a nice thing to receive in the post it\u2019s official, The Data Shed is officially ISO 27001 certified!"
+  },
+  {
+    "text": "Dear LinkedIners - a great opportunity here.!\n\n#data"
+  },
+  {
+    "text": "I had a really interesting afternoon talking about all things Digital for the Region, thanks for the invitation Kate Hutchinson, and a great event - thanks for hosting Turner and Townsend!"
+  },
+  {
+    "text": "Anyone able to help?"
+  },
+  {
+    "text": "Work hard, play harder "
+  },
+  {
+    "text": "How do you learn about security in your web applications?! At The Data Shed, we like to learn by hacking them "
+  },
+  {
+    "text": "It was a privilege to speak at today in Manchester this morning. Great to hear about journeys to the Cloud and meet some very interesting people!\n\n#aws"
+  },
+  {
+    "text": "Dear LinkedIn I\u2019d like to show you some wonderful people I know. They\u2019re Shedders. \n\nToday, a team from The Data Shed participated in a Dragon-boat race to raise money for Martin House. They performed admirably - coming to 4th out of 48. \n\nAside from this astounding success, they made me proud to be able to say that I work with them. They are generous, intelligent, competitive, diverse (only non-100% male team in the final!) and most of all, a fiercely loyal team. \n\nThat\u2019s what Anna and I have spent the last few years building - and amazing to see it in action."
+  },
+  {
+    "text": "Exciting doesn\u2019t even begin to cover it!!"
+  },
+  {
+    "text": "Hello LinkedIn peoples! A friend of mine is looking for a Microsoft BI contractor working in central London. Great day rate amateurs need not apply, as the team is hugely capable and skilled. \n\nNo agencies please!"
+  },
+  {
+    "text": "What an amazing Leeds Digital Festival it\u2019s been for us at The Data Shed!\n\nA huge thanks for the efforts you\u2019ve put in, Shedders!\n\nAnthony Jozefek and Stewart Norriss for their insightful knowledge on architecture and analytics\nReema Vadoliya and Bevan Swanson for sharing their stories at WILD today\nAnna Sutton for making us the coolest kids in town by being led by the entrepreneur of the year\n\nLet\u2019s start planning for next year!\n\nThanks for organising things, Stuart Clarke. It\u2019s been a blast (and one day left!!)"
+  },
+  {
+    "text": "Amazing work, and so very proud."
+  },
+  {
+    "text": "A huge thanks to all of those who attended our Make Analysis Great Again! event last night at RSM UK in Leeds!\n\nI'm not sure what I'll do with the hat now. suggestions?\n\n#leedsdigi19"
+  },
+  {
+    "text": "Our 2nd event is tomorrow evening: MAGA! (Make Analysis Great Again!)\n\nThis event is focussed on the great analysts of the city, with Anthony and I talking about how to reinvigorate your business\u2019 analytical function - technically, culturally and strategically. \n\nSign up here:"
+  },
+  {
+    "text": "Happy! AWS have landed from Dublin and we're looking forward to welcoming you all to our event this evening at Nexus at 5.30pm. We're now sold out - if you can no longer join us please cancel your ticket. Add yourself to the waiting list here:"
+  },
+  {
+    "text": "Dear LinkedIn. Just so you know If you can\u2019t think of something original, it\u2019s ok. \n\nIt\u2019s fine that you can\u2019t think of the next \u201cviral\u201d quote. They come around once every blue moon. \n\nHowever Don\u2019t copy content around and pass it off as your own. It just makes you look a bit silly. \n\nRepeating what Jeff said won\u2019t make you a better person, but might make you look a little silly."
+  },
+  {
+    "text": "Life isn\u2019t very relaxing at the moment!"
+  },
+  {
+    "text": "This was a nice Saturday morning read \nand I\u2019ll quote it next time I see Hadoop used to manage 500GB of data."
+  },
+  {
+    "text": "This week has been a rollercoaster\n\n- Last Friday, I returned from 4 days holiday. \n- Last Saturday, the whole team were together to watch and celebrate our efforts on GAMSTOP result in a hugely successful Grand National \n- On Wednesday, the Shedders were down at the GAMSTOP Operator Day in London, collaborating with over 100 operators on the future roadmap\n- Today, we officially opened ShedQuarters 3.5, officiated by Hilary Benn, and attended by many of our wonderful clients, friends and Shedders. \n\nWhat a week. We\u2019re shattered, but are so proud of the business and community we\u2019ve created. Long live the Shed!\n\n "
+  },
+  {
+    "text": "After a busy and nervous weekend standing up to the brunt of Grand National traffic, I'm now looking forward to this event\n\nAs least I now know all the things I'm saying are true!"
+  },
+  {
+    "text": "Another great day for The Data Shed today - our first Grand National looking after GAMSTOP, and I\u2019m pleased to say it was a roaring success. In fact, at points it was quite boring watching the monitoring tools!\n\nWell done, Shedders. A great team effort of diligent planning and preparation, and a lovely day in the office with you all!"
+  },
+  {
+    "text": "Oh - and for every like or share I get of this, I'll contribute one fine British pound to the charity"
+  },
+  {
+    "text": "Dear all Friendly LinkedIners We're raising money for Martin House this year, and some of our intrepid team are competing in the Annual Martin House Dragon Boat race at Roundhay Park in Leeds in May.\n\nWe'd really appreciate it if you could sponsor us!"
+  },
+  {
+    "text": "The is out.. take a nosey!  Thanks for letting me take part, Simone Roche MBE!"
+  },
+  {
+    "text": "Wow four nominations for The Data Shed at Leeds Digital Festival this year! \n\nCongratulations to all nominees but most  congratulations to the awesome Shedders who make us what we are. \n\n#ldf "
+  },
+  {
+    "text": "What an interesting talk! (The other panelists, not me obviously!)\n\nGreat to be involved, and to meet some fantastic people. Looking forward to seeing what you can do to make my dulcet tones sound better than they do in real life, Simone Roche MBE!"
+  },
+  {
+    "text": "Looking forward to this - a great panel, and some interesting topics to discuss!"
+  },
+  {
+    "text": "It's days like this that make me ever so happy Anna and I started this crazy Data Shed journey all that time ago. \n\nThe Profile Search feature of the Data Refinery is ready, the inbox is full of new applicants for our various roles, we're working on some new and exciting projects, alongside making some great leaps forward on existing ones. \n\nLife is pretty good at The Data Shed!"
+  },
+  {
+    "text": "Go Go Go!"
+  },
+  {
+    "text": "An interesting question came up during the talk around diversity initiatives supported and represented by men. \n\nWhere are the senior male executives supporting diversity? I know Rik Barker is doing some great work over at Sky Betting & Gaming, but are there more?\n\nIt\u2019s a two way street, and we\u2019ll only reach our goal if those who can see the problem are helping to find the solution. \n\n#diversity"
+  },
+  {
+    "text": "Confirmed. Sarcasm doesn\u2019t translate well on LinkedIn."
+  },
+  {
+    "text": "I\u2019m looking for a course on \u201cThough Leadership\u201d any ideas?\n\nI assume that our fine universities must offer these, and that all thought-leaders are fully qualified and accredited and not merely self-declared?\n\nAnswers on a postcard, please."
+  },
+  {
+    "text": "It\u2019s a quiet Saturday evening so what to do?!\n\nThe answer: chat with one of the brightest people you know, and discuss the trials and tribulations of running a tech business. \n\nThanks, Jordan Appleson! Next time we should make it into a podcast!"
+  },
+  {
+    "text": "Two wise people once explained their approaches to recruitment to me- one looked for team fit, the other looked for commitment and graft.\n\nAs a younger and more arrogant me, I wanted only the most intelligent and qualified. I disagreed with them both, and ignored them.\n\nNow, 6 years in, I find that experience has led me to look for people who fit well in my teams, and for people willing to make the commitment - to graft. I've hired and fired too many 'genuises' who don't make the business a more fun or pleasant place.\n\nIt took me a long time to learn, but I'm finally there. Genius is great and useful. But without the willingness to graft, and the trust and friendship of the team, it is ineffective and often divisive or destructive. I'd take 1 genuine grafter, willing to learn about their colleagues and make a personal difference, over 2 geniuses.\n\nI'm glad I'm not my younger self anymore (for the above reason only. I'd love to be 11 stone again)"
+  },
+  {
+    "text": "Dear LinkedIners! The valiant team at the Shed are competing in the 12th annual Martin House Dragon Boat race, in an effort to prove that even data geeks get outside sometimes. \n\nPlease sponsor them and come along to cheer (or heckle)!\n\n"
+  },
+  {
+    "text": "I might be getting cynical in my old age.. but\n\n1. \"We specialise in a, b, c, x, y and z\"  You don't specialise at all. Do one thing well, and one thing alone.\n2. \"Fastest-growing\". You're funded by someone else. Growing is easy when it's not your own money. It also means you spend it less-wisely, which means your client pays more for less.\n3. \"Big data specialist\". Next time I have a few terabytes of corrupted HDFS to sort out, I'll give you a call. And watch you correct your LinkedIn profile.\n4. \"AI\". Don't get me started."
+  },
+  {
+    "text": "Well this is wonderful news - congratulations, Amy Wright you\u2019ve got a good egg there, 3volution!"
+  },
+  {
+    "text": "We are very proud of this one - a great scheme, working towards a very valuable goal. Plus it\u2019s got some very interesting technical challenges!\n\nWe\u2019re always on the lookout for high-calibre data analysts, support analysts and engineers, so please get in touch if you fancy a challenge!\n\n"
+  },
+  {
+    "text": "In addition to the analyst roles I announced earlier in the week, we're also looking for two engineers (no agencies please!)\n\nWe actively use dotnet core, JavaScript, Java, Python, Scala, Go (amongst other languages!) and plenty of SQLy stuff on a daily basis, typically on top of Azure or AWS.\n \nThese are full stack roles - you'll build the environment (using something like Terraform, of course no manual stuff, please!), write the code, build the CI and CD pipelines, and run the thing in the wild. \n\nPlenty of opportunity to get involved in actually *using* data, rather than just building systems that create it. \n\nGet in touch!\n\n#jobs"
+  },
+  {
+    "text": "It's that exciting time again when we're on the lookout for new Shedders to join us taking over the world!\n\nWe have a few roles open (no agencies please!):\nData Analyst: Someone who knows data, knows maths and has some data engineering skills and would like to apply those to the drive some real change for our customers' customers!\nSupport Analyst: Fancy helping to keep our customers happy and several critical systems online? You'll need to be tenacious, detail-oriented and excel at keeping the customer satisfied. \n\nGet in touch on here, or via recruitment@thedatashed.co.uk\n\n "
+  },
+  {
+    "text": "Science wins again (and warms the cockles of my cold data heart)!\n\nAs an aside, it\u2019s very interesting what can be done by a machine using less power than my house lights, and is able to process less data than my internet connection in 2002. \n\nJust think of all the power we\u2019d save if we used this sort of innovation little more frequently on planet earth\n\n"
+  },
+  {
+    "text": "Last day in the office tomorrow for 2018 and what a year it has been!\n\nNew offices, investment discussions, retention of some wonderful long-term clients, new work with other new and exciting clients, processed tens of billions of transactions, promotion of many Shedders, 10+ new Shedders, designs and plans for new new offices, new partnerships, new products \n\n and next year is going to be even busier, with more growth, new clients and more seemingly-impossible challenges to fix. \n\nWe couldn't have done it without each and everyone on of our Shedders. They are the team I've always dreamed of working with - hardworking, brilliant, friendly, and above all else, a bloody pleasure to work with (NOTE: This has nothing to do with the bottle of whisky they bought me for Christmas. Honest.) \n\nHere's to 2019! Long Live the Shed!\n\n#engineering "
+  },
+  {
+    "text": "Much has been said about organisational structures and how they impact the products you build - much of it laid out in \"Conway's Law\". \n\nHuge effort has gone into building organisational structures to avoid the perceived potential issues - but from all my reading, they seem to focus on the 'easy' stuff. \n\nI wonder how much consideration has been given to the impact of the less tractable aspects of business - such as monthly and annual budgeting, sales targets or accounting requirements.\n\nI bet if these things were to change, we'd see a much bigger shift than we've had from just calling something a 'tribe' or 'guild'.\n\n"
+  },
+  {
+    "text": "Any DBAs out there looking for a new challenge? We have a couple of roles to fill in the Shed - they stretch across our teams working closely with developers and analysts to optimise the performance and design of our solutions, and also maintaining, optimising and supporting all our clients, on a variety of on premise and cloud-hosted platforms. \n\nMostly working on the Microsoft and Azure stacks, with exposure to other cloud and data platforms (AWS Redshift, Apache Spark, Postgres, AWS Athena, Azure Data Lake and other exciting stuff)\n\nIf you fancy it, get in touch!\n\nNo agencies, please. \n\n  "
+  },
+  {
+    "text": "The more I read and see of how businesses are using Agile, I do wonder if they have missed the point. \n\nMore often than not, it becomes a process that guides poor-performing teams, and helps protect businesses from large-scale failure, rather than enabling high-performing teams to successfully deliver value regularly and predictably. \n\nI wonder whether businesses who struggle to implement agile might be better off focusing on the critical thinking abilities of their teams, working to better understanding the impact of having poorly-considered or inconsistent planning processes, and their willingness to openly critique previous performance. \n\nAgile, when done well, has a huge impact. Done badly, it simply masks other organisational issues. \n\nA framework or process will not fix your problems, until you help your people become better themselves first or at least, that\u2019s what I think!"
+  },
+  {
+    "text": "A friend of mine is looking for some Xamarin support - short term (weeks not months), immediately. Anyone in my lovely network who can help?! No agencies, please!"
+  },
+  {
+    "text": "A big day for one of my teams today. They migrated a service handling tens of million requests per day over to a new environment with no downtime. \n\nA great example of amazing engineering skill - well planned and executed. I couldn\u2019t be more proud. \n\nA special shout out to James Smith, Rob Sanderson, Roger Coram, Will Johnson, Stewart Norriss and James Zwiers. A wonderful team of Shedders, and a credit to our industry. \n\n#migration"
+  },
+  {
+    "text": "Now this is a bad day in the office! hack hits 500 million guests"
+  },
+  {
+    "text": "For those of you who don\u2019t know about Cystic Fibrosis, I\u2019d strongly urge you to buy a copy of this. It\u2019s a great insight and read and supports a very worthwhile cause. \n\nThe bravest and most determined person I know has CF. He accomplished more by the age of 30 than most ever do.\n\n#cf"
+  },
+  {
+    "text": "Now this sort of thing makes me feel all fuzzy and warm inside. Well done humans. Winning at Science. Mars: Nasa lands InSight robot to study planet's interior "
+  },
+  {
+    "text": "Dear LinkedIn. Please could you fix it so that it is easy to add a \u201cNice to meet you\u201d message when I click connect on the mobile app? And by easy, I mean make it mandatory/default. \n\nNo one likes random maniacs connecting. A message is important!"
+  },
+  {
+    "text": "Having spent a few *very* exciting days working through Azure B2C Custom Policies, I now feel like Neo from the Matrix when he realised he knows Kung Fu.\n\nBlog post coming Daniel, Sam? \n\n#kungfu"
+  },
+  {
+    "text": "Everyone loves a good bias-reinforcing typo."
+  },
+  {
+    "text": "It's been another busy few months over The Data Shed! Here are a few highlights:\n-- We've been working on a huge new project that's close to our hearts (we should be able to tell you more about this soon!) \n-- the Data Refinery is a gnat's whisker away from being ready for you to all to play with, able to handle match, clean and enhance many thousands of customer records together per second\n-- We've had loads of new Shedders join ( Welcome to Reema, Ed, Ahmad, Andrew, Jatinder, Dilraj and Steph!) and we have a few more to join in the next couple of weeks.\n-- Anthony and I are speaking at Sherin's AI event in October (may the demo gods be kind to us!)\n and we've rolled out some really cool new projects to our wonderful clients.\n\nNow.. if only there was time for a rest. \n\n#proud "
+  },
+  {
+    "text": "Come and watch our (almost definitely going to work!) demo of Machine Learning in production! Plus Anthony Jozefek will be sharing his wisdom. What\u2019s not to like?!"
+  },
+  {
+    "text": "Going through has been fairly straight forward so far, thanks to the team at Agenci  You\u2019ve got a good team, Tom!"
+  },
+  {
+    "text": "I could never work from home full time. There's no way I could find space for the number of whiteboards I need to be effective.\u00a0"
+  },
+  {
+    "text": "Two years ago, I broke my hand and it terrified me. Being able to type is fairly critical to my job, and the thought of 12 weeks at half productivity wasn't particularly attractive.\n\nYesterday, I broke my  wrist. However, this time it's different. It's bloody annoying, but I have an awesome team of Shedders who will make sure the wheels keep turning. Oh how we've grown up at The Data Shed!\u00a0\n\nNow I have plenty of spare time to focus on not falling down like an idiot."
+  },
+  {
+    "text": "Aren\u2019t holidays brilliant?! After a whistle stop tour of the UK, it\u2019s time to get back to the grindstone. \n\nLooking forward to a session with the AWS team ( Javier and Darren) tomorrow!"
+  },
+  {
+    "text": "Out of office"
+  },
+  {
+    "text": "Happy Yorkshire day, one and all! I\u2019m not even sure what that means, but if we can have a day for biscuits, we can certainly have one for Yorkshire!"
+  },
+  {
+    "text": "As part of our growth at The Data Shed, we\u2019ve done some restructuring of teams resulting the promotion of some of our engineers! \n\nCongratulations to Roger Coram, Daniel Fearn, George Verney and Andy Thurgood our new Engineering Managers! Also a big round of applause to Jordan Finneran for his promotion to Senior Engineer!"
+  },
+  {
+    "text": "Over the last few years, I\u2019ve seen a lot of posts talking about work-life balance. Most of these have been by company founders talking about how they manage (or don\u2019t!) to find it. Usually bragging about how amazing their lives are now. \n\nIt\u2019s easy to have an opinion about things you control. Much of my day is spent doing my best to ensure that our Shedders don\u2019t waste the time they could have with their family on trivial matters. \n\nWorking away, unreasonable and antisocial hoursmost people hate these. Unless you\u2019re working on something that you love , and will benefit your family in the longer term, don\u2019t bother\n\nTrust me. It\u2019s not worth it."
+  },
+  {
+    "text": "We need a 65\" TV, said Simeon. Are you sure, I ask? Yes definitely, says he.\u00a0\n\nNow I know why."
+  },
+  {
+    "text": "Dear LinkedIn peoples! We at\u00a0The Data Shed\u00a0are having a bit of a growth spurt in Leeds, and need to find some more Shedders to help us. Currently, we're looking for:\n\nAzure Data Engineer (C#, Python, SQL and a penchant for early-80s Stadium Rock)\nAWS Data Engineer (Java, Scala, JS and a deep love of Pugs, good grammar and craft ales)\nData Scientists (An unhealthy obsession with numbers and a desire to make the world a better place)\nProject/Delivery Manager (Scrum stuff and talking to people about project stuff. I know what they do, honest.)\n\nKnow anyone? Please share - or get in touch!\n\n    "
+  },
+  {
+    "text": "I was interviewing the other day, and the topic of Internet Sex came up.\u00a0\n\nThat was a surprising first.\u00a0#interviewing\u00a0"
+  },
+  {
+    "text": "Wow, it\u2019s quiet in here! Is something other than work happening?!"
+  },
+  {
+    "text": "There are some very exciting things happening oop narth at the moment. Some excellent news from Chris\u00a0over at ORIIUM with a seven-figure funding package, David\u00a0seems to be doing pretty well at MirrorWeb\u00a0with some impressive funding and growth, Zandra\u00a0at Panintelligence\u00a0growing at a rate of knots Not to mention SkyBet and Call Credit being acquired for huge sums.\u00a0\nIt's an exciting time to be a Northerner!"
+  },
+  {
+    "text": "I like this a lot - let\u2019s have less victim behaviours, and a lot more accountable behaviour!"
+  },
+  {
+    "text": "Great write up by Prolific North on The Data Shed today! "
+  },
+  {
+    "text": "The days are truly gruelling at the moment but not because of the interviews, heat or busy schedule.\n\nMy days seem to be filled with the relentless 'ping' of alerts from a myriad of different Instant Messenger apps. Teams, Slack, WhatsApp, Facebook, LinkedIn, WhatsApp, Skype and SMS and then further alerts from Jira, VSTS, Confluence and Trello.\u00a0\n\nI appreciate that there's a question around why we use so many (and there's a good answer for that, I promise!). but has anyone who needs to use so many different tools managed to save themselves from the madness?\n\nI'm about one ping away from deleting the whole lot and going to live in a cabin in the woods.\u00a0#linkedin\u00a0#IMhell\u00a0"
+  },
+  {
+    "text": "Much better than my last picture!"
+  },
+  {
+    "text": "Another busy week at the Shed loads to do, and still more roles to fill. Project Manager, Support & Operations Analysts and Test Automation Engineers - get in touch if you fancy a change!"
+  },
+  {
+    "text": "I used to build stuff. I miss those days - and often spend time wondering what I can do to bring them back.\n\nThen I have days like today, and yesterday, and the day before. Watching the team we've built do the things I could never have done with a single pair of hands.\u00a0\n\nIt makes me incredibly proud to see how far we've come at\u00a0The Data Shed.\u00a0\n\nWe'll mess it up sometimes. But we learn. We improve. The more I come to think about it, the more I realise that our ability to learn and adapt is the most important thing we've learned over the last few years.\u00a0\n\nBy myself, I can build some cool stuff using Tech. With my team, we can take over the world.\u00a0"
+  },
+  {
+    "text": "This is potentially very interesting - training deep learning algorithms needs lots of training data. I wonder what could be trained using all this code, particularly as labelling the sample is achievable using stars, number of committees, issues etc. \n\nLooking forward to when something can write code for us!"
+  },
+  {
+    "text": "Life as the Shed is getting quite exciting! We need a number of people to help us grow - get in touch if any of these sound of interest!\n\nService Delivery Manager: Help us refine and formalise our support system, framework and team to build. We need a real leader in this role!\n\nAWS and Azure Platform people: Automation, scale and availability are key. \n\nSupport & operations analysts: We work across a lot of different platforms, languages and tools - so variety is the name of the game. \n\nThere are a few other roles we\u2019re looking to fill, so if the above aren\u2019t for you, then drop us a line anyway:\u00a0 hello@thedatashed.co.uk\n\n"
+  },
+  {
+    "text": "Basically, we need someone to formalise our support, and build the team and function around them.\u00a0\nWe support almost all of the code we write, so there's only a little bit of messing about with rubbish third-party vendors!\n#servicedelivery\u00a0#support\u00a0#tech\u00a0#leeds\u00a0#howmanyhashtagsistoomany"
+  },
+  {
+    "text": "We have a few more roles open in engineering, support and project management - feel free to take a nosey and get in touch if anything piques your interest!"
+  },
+  {
+    "text": "Well done, LinkedIn! One week down, and two new Shedders! Only another 10 more to go any takers? Email us at hello@thedatashed.co.uk!"
+  },
+  {
+    "text": "Right then you wonderful LinkedIn people just for a change, we're on the lookout for more clever data people to help us do some pretty cool things. Currently on my list are:\n\nData engineers (Python, Java, Scala, SQL, Hadoop, Spark, and a good eye for detail)\nTest automation engineers (Ruby, Python, BDD, Selenium, and an aptitude for breaking things)\nArchitect (Good picture drawing skills. Occasionally needed to actually do some hard work like building complex data platforms)\nSupport Analyst (AWS/Azure/GCP, 1st/2nd Line, able to beat up developers whose code breaks things)\n\nAny takers? Please share!\n\nWe're not putting these roles out to agencies at the moment.\n"
+  },
+  {
+    "text": "An interesting GDPR event, eh? You heard it here first!"
+  },
+  {
+    "text": "I\u2019m looking forward to seeing Stew speak at the Shed-Quarters tomorrow. It\u2019ll make a change from all the other shiny, expensive conferences he speaks at!"
+  },
+  {
+    "text": "Right who wants to come and help us automate all things testing?! We're looking for someone who is familiar with both website/UI and backend data pipeline testing - and who is happy to automate all of the things! Any takers?"
+  },
+  {
+    "text": "We're on the lookout for new engineers and analysts to join the team again!\u00a0\n\nWe work with large data sets, mainly revolving around customer analytics, master data management and real-time insight, using a variety of tools, technologies and frameworks.\u00a0\n\nDrop us a note at hello@thedatashed.co.uk, or feel free to pop into see us at the Shedquarters in Leeds!\u00a0 \u00a0"
+  },
+  {
+    "text": "We\u2019re looking for a new business manager to join the Shed to help grow existing business and find new clients! Great basic salary and commission scheme. Exciting time to join - does my network know anyone who might be interested?"
+  },
+  {
+    "text": "What a bizarre set of searches always reassuring to see I turn up in \u201cunemployed\u201d searches! I wonder if someone is trying to tell me something."
+  },
+  {
+    "text": "Since when did we start weighing developers?\u00a0\n\nSo many adverts for 'junior weight' or 'mid weight' developers out there at the moment.\u00a0\n\nUnfortunately, since the birth of my children, I now appear to be a 'marginally overweight developer', with no discernible improvement to my actually engineering skills.\u00a0\u00a0"
+  },
+  {
+    "text": "What a wonderful and challenging year. The team has grown almost 100%, clients and revenue too. I've never been prouder of all our Shedders! here's to the next 12 months, at\u00a0The Data Shed\u00a0!"
+  },
+  {
+    "text": "Let\u2019s not forget that AI means Artificial Intelligence. It does not necessarily mean \u2018clever\u2019 or \u2018useful\u2019"
+  },
+  {
+    "text": "Very proud of our very own Stewart Norriss\u00a0presenting at the O'Reilly SA Conference today on Architecture at Scale! Well-deserved beers are in order!\u00a0#OReillySACon"
+  },
+  {
+    "text": "Thanks to Marc Woolfson for our first Open Mic @ the Shed! You'll be missed!"
+  },
+  {
+    "text": "We're looking for some more friendly people to help get our new Single View of Customer out of Beta!\n\nThe product is built with SMEs in mind - making it simple to integrate the data that describes your customers, link it all together, and then start to talk to them like people, not accounts.\u00a0\n\nGet in touch if you're interested!\u00a0"
+  },
+  {
+    "text": "4 years in, and we greeted the arrival of Shed 3.0 today with our friends, family and all the Shedders. So proud of where we are, and of the amazing team we have. Here's to the next 4 years!"
+  },
+  {
+    "text": "Our new Shed-quarters! Not long now Looking forward to using the sleep pod"
+  },
+  {
+    "text": "It's very exciting to see the Shed 3.0 developing.  Plenty of space to grow and make our own only a few weeks to go until we move in! (Nice pose, Mark Pybus)"
+  },
+  {
+    "text": "Interesting news! I'm surprised that 'both' isn't higher"
+  },
+  {
+    "text": "#outofoffice Very reassured that we have a great team back in the UK to look after things while we glamp!"
+  },
+  {
+    "text": "Unicorn hunting is generally a fruitless hobby. \n\nI was reading a post today which seemed to be a brilliant example of where the data trade is going wrong. A recruiting manager was ranting about an interviewee using Python to respond to a question rather than a language where memory management was more explicit. \n\nWhat a load of rubbish. If your Data Scientist needs to genuinely concern themselves primarily with memory management, and doesn't have a team around them who could help with this, then you've failed. Ask the questions that show they know about business context, external markets, applied statistics and communication. Something as trivial as memory management is wasting everyone's time. \n\nYou may as well ask your interviewee for evidence of how good they are at making coffee, or show their floor-mopping technique. \n\nI do wish all these bloody unicorn hunters would put their guns down and focus on team building."
+  },
+  {
+    "text": "Get in touch!"
+  },
+  {
+    "text": "Now here's an interesting shift for better or worse?!"
+  },
+  {
+    "text": "Any HR system specialists in my network? They're small, but I'd back them for a lot of growth!"
+  },
+  {
+    "text": "It feels as though I spend my life looking for new people at the moment.. and here's another one! We're looking for a PA/Executive Assistant to help keep my life in order. Any recommendations on where to start to find a good one?"
+  },
+  {
+    "text": "A great case for using Python and SQL! Shame there's nothing to show how productive the combination of skills is"
+  },
+  {
+    "text": "I do like a good rant particularly when it has a point!"
+  },
+  {
+    "text": "Job titles are broken. It's official. Taking someone who 2 years ago was building reports, and now calling them a Data Scientist is madness. A support or platform engineer does not immediately equate to a DevOps Engineer. A SQL guy does not just become a Data Engineer and on all of the above, a job title does not result in immediate salary increases. \n\nIt's the skills and attitude that matter - clearly demonstrable, well explained and valuable skills, and showing how they can be applied to solve real problems.\n\nI'd rather be a \"Junior Data Minion\" capable of changing a business with my skills, rather than a \"Data Science Ninja\" who can barely open Excel."
+  },
+  {
+    "text": "Hello Project Managers! We need another one of you to join our growing ranks! Ideally, you'll be hands-on, willing to get into the detail of everything and anything, be able to communicate with our lovely engineers and with clients. Drop us a note at hello@thedatashed.co.uk - we'd love to hear from you."
+  },
+  {
+    "text": "A great article. Very few businesses seem to change their team structures well in response to tech stack complexity."
+  },
+  {
+    "text": "James Smith?"
+  },
+  {
+    "text": "We're looking for more people to join our growing team! We're looking for a Project Manager (Scrum, Client Management, commercial exposure), Data Engineers (Java, Python, with data modelling experience, real-time data systems) and a DevOps Engineer (Automation, AWS, Azure, Docker,  IaaS, PaaS). Any of these float your boat? Then get in touch! with your CV (or something more imaginative if you are that way inclined!) hello@thedatashed.co.uk"
+  },
+  {
+    "text": "Anyone down at today?"
+  },
+  {
+    "text": "A genuine concern for me - if can't scale quickly, it'll start to lose a lot of smaller users, and lots of the goodwill of larger users. Under no circumstances should a public cloud provider run out of capacity!"
+  },
+  {
+    "text": "For those of you who missed this the first time around!"
+  },
+  {
+    "text": "Python, Java, dotnet core, Javascript. Just four of the languages we use for development and we expect every potential Shedder to know, or want to know, at least two. \n\nRight now, we need a couple of Data Engineers - people who understand the commercial use of data, and have the brains and skills to build data pipelines to make insight out of data - both big and little. \n\nIf you fancy a challenge, and would like to join us on a great journey in providing awesome data solutions to businesses large and small, then please drop us a note -  hello@thedatashed.co.uk \n\n#leedsjobs?"
+  },
+  {
+    "text": "If you want a real challenge, sign up!"
+  },
+  {
+    "text": "Now here's a cracking challenge for the right person.  Very exciting plans over the next year - get applying!"
+  },
+  {
+    "text": "This really is a bad day in the office! There is merit in that Wonga actually identified a data breach. Many wouldn't even have noticed"
+  },
+  {
+    "text": "Any decent Data Engineers out there capable of building high-speed, high-volume data processing platforms? Get in touch! "
+  },
+  {
+    "text": "I wish I had the money to buy the personal details of this many data scientists! Wise move <Approving clap>"
+  },
+  {
+    "text": "It's that time of the month again! Searching for more people in. Rather than me try and explain what we're looking for, it might be best to leave it to some of the Shed lot to do that for me:\n\nLauren Lewis wants someone who wears a good hat. \nHannah Varley would like them not to be a tool (I believe that's a Scrum term)\nRoger Coram would like a proven ability to collaborate on software. Knowledge of several programming languages, covering several paradigms with a preference for at least one.\n\nAt least one of them was taking it seriously!\n\nIf you like hats, dislike DIY, or are good with lots of languages, give me a shout! We've got some really interesting project on the go - real-time, Big Data insight projects, cloud-hosted financial services, and our own SaaS product. Not for the faint hearted!"
+  },
+  {
+    "text": "One of the most difficult things for a technical person to do is to manage technical people. Trying to maintain hands-on skills at the same time as developing leadership skills is hard.  \n\nIf you're genuinely up for the challenge, please get in touch."
+  },
+  {
+    "text": "Bad day at the office for someone at.. but don't forget. Everyone has a bad day in the office at least once a year. For those spouting the 'Glad I'm not using Amazon' rhetoric, I'd be interested in seeing your availability across all components of your architecture over the last 12 months. \n\nForget not, people. The Cloud is just someone else's data centre."
+  },
+  {
+    "text": "Too right. And you can throw AI into that pot too."
+  },
+  {
+    "text": "Very true - \"Process problems are a pain in the ass\". Writing code is easy. Writing it well, collaborating with other coders and getting that code into production is the tough bit."
+  },
+  {
+    "text": "The hunt continues! Right now, we're looking for someone to come help build clever stuff. We're not picky about your background, as long as you're awesome at one language or framework, and are willing to learn loads of other stuff.  Java, Scala, Python, Go, dotnet - we use them all, and need someone to come help!\n\nIf you're interested in building high-scale and innovative data processing systems using the best technology available, then please give me a shout. \n\nFriday afternoon is beer day - so feel free to pop around. There may even be a beer left in the fridge!"
+  },
+  {
+    "text": "A good read!"
+  },
+  {
+    "text": "Right then I need your help again, LinkedIn people! As part of our growing team, we need some very specific and highly-skilled people.\n\n1. A business analyst! The job is taking a set of loose requirements and turning it into a margin-increasing proposition.\n\n2. A front-end developer, capable of building cutting edge tools for interacting with data. Someone who has awesome JavaScript and CSS skills, and a keen eye for detail.\n\nIf you're reading this and have the skills but haven't gone the 'typical' route in to IT, then fear not. You're probably the one we're looking for. Please share."
+  },
+  {
+    "text": "Another week, another great addition to the team! Welcome to Gail Coram! At this rate, we're going to need more desks"
+  },
+  {
+    "text": "That's what I like to see. nice, small images."
+  },
+  {
+    "text": "A new year, and some great new people have joined the team. Welcome to James Smith and Chris Bromley! If anyone is interested in joining the team, then we need UI and data engineers, business analysts and all sorts of other geek-types. Feel free to get in touch!"
+  },
+  {
+    "text": "Great cause.. if you're looking for something to do on Boxing Day, then this sounds amusing (if it snows!) "
+  },
+  {
+    "text": "Your Shed needs you..!"
+  },
+  {
+    "text": "Attention all contacts! \n\nWe're looking for a UI developer to join our growing team. Basically, we're building some really cool tools that need someone with extensive experience with JavaScript, CSS and other clever web stuff. Making interacting with data slick, simple and intuitive is the name of the game. \n\nPlease get in touch if you know anyone and if you don't please share!\n\nCheers!"
+  },
+  {
+    "text": "Hi all any one know of any internships in European outdoor magazines? If so, Owen Tomkins is the man for you. Great photography skills, and a fair grasp of English (he's from Yorkshire). Please share!"
+  },
+  {
+    "text": "Here's a very warm welcome to new Shedders to the the DataShed- Will Johnson and Lauren Lewis! We're over the moon to welcome you, and add your geekiness to our own! "
+  },
+  {
+    "text": "Fear not.! I just hope I never see the CV of the author of this piece. Badly constructed, poor logic and appalling grammar."
+  },
+  {
+    "text": "From a perspective, this could be one of the most exciting changes in a decade for"
+  },
+  {
+    "text": "From a perspective, this could be one of the most exciting changes in a decade for"
+  },
+  {
+    "text": "Time to!!"
+  },
+  {
+    "text": "Delightful culture. Well you know what they say Unhappy staff = explosive hardware. \u2014"
+  },
+  {
+    "text": "Where are we going to put projects if buys GitHub? They'll be safer in my garage."
+  },
+  {
+    "text": "#OutOfOffice"
+  },
+  {
+    "text": "If you're interested in text and sentiment mining, you should read this.."
+  },
+  {
+    "text": "Some very interesting lessons in there I've yet to come across one that 'just works'."
+  },
+  {
+    "text": "Not long now until the inaugural DataShed labs - starting tomorrow at 1pm sharp in Leeds, at our partner's office - cap hpi. Looking forward to bringing Apache Spark to life with Docker, Cloudera and hands on sessions with Lewis Crawford and Roger Coram! "
+  },
+  {
+    "text": "Tinkering with the containerised cluster running in powering our Labs event..! From zero to live in < 10 minutes!"
+  },
+  {
+    "text": "Make peace, not war..!"
+  },
+  {
+    "text": "Now this is huge news: on. Nuff said."
+  },
+  {
+    "text": "#Dilbert to the rescue! There's a lot to be said for x years experience, but the last 5 years have seen more change than the last 10"
+  },
+  {
+    "text": "Hi chaps Java contractors alert! No agencies at this stage chaps."
+  },
+  {
+    "text": "Quite an interesting list And nice to see that SAP HANA is looking as ridiculously overpriced as the software itself"
+  }
+]
