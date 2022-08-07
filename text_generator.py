@@ -2,6 +2,7 @@ import csv
 import json
 import markovify
 
+
 # Load Teams posts from Teams
 def load_teams_data():
     with open("teams/ed_teams_messages.txt.clean") as f:
