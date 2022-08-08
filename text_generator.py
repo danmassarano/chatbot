@@ -2,17 +2,16 @@ import csv
 import json
 import markovify
 
-
 # Load Teams posts from Teams
 def load_teams_data():
-    with open("teams/ed_teams_messages.txt.clean") as f:
+    with open("input/ed_teams_messages.txt.clean") as f:
         teamsString = f.read()
         return teamsString
 
 
 # Load Twitter posts from CSV
 def load_twitter_data():
-    with open("twitter/edthewlis_twitter_dump.csv.clean", newline="") as csvfile:
+    with open("input/edthewlis_twitter_dump.csv.clean", newline="") as csvfile:
         twitterData = csv.reader(csvfile)
         twitterString = ""
         for row in twitterData:
@@ -22,7 +21,7 @@ def load_twitter_data():
 
 # Load LinkedIn posts from JSON
 def load_linkedin_data():
-    with open("linkedin/eds-posts-text.json.clean") as json_file:
+    with open("input/eds-posts-text.json.clean") as json_file:
         linkedinData = json.load(json_file)
         linkedinString = ""
         for i in range(0, len(linkedinData)):
