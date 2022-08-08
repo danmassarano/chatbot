@@ -1,9 +1,3 @@
-<!-- TODO: Organise project into extract/transform/train/run structure
-    This project was initially created in a hackathon so things got rushed. Update structure so that it's properly organised
-    labels: refactor
-    assignees: danmassarano
--->
-
 <!-- TODO: Refactor classes used to grab source data
     Go back to just using twitter for now and build an elon-bot and have it scrape data properly
     labels: refactor
@@ -24,17 +18,24 @@
 -->
 
 <!-- TODO: Add pre commit hook
-    Look into best ways to do this - it should check for things like tests, branching, linting, that requirements are updated, etc
+    Look into best ways to do this
     - Run black formatting
     - Run pylint
+    - Sort imports
+    - Update requirements
+    - Not committing on main
     labels: ci
     assignees: danmassarano
 -->
 
 <!-- TODO: Add GitHub Actions for CI
     Actions for linting, running tests, checking code quality, security issues, broken/deprecated dependencies, missing requirements, and building
-    - Run black formatting
     - Run pylint
+    - All requirements are set
+    - Dependencies are up to date
+    - Security scans
+    - Code quality scan
+    - Build
     labels: ci
     assignees: danmassarano
 -->
@@ -111,6 +112,12 @@
 
 <!-- TODO: Can the chatbot cache/store trained data?
     Training the chatbot is especially time consuming, can this be stored or cached?
+    labels: enhancement, question
+    assignees: danmassarano
+-->
+
+<!-- TODO: Use cached input
+    Allow for option to skip scraping new data and use cached input files
     labels: enhancement, question
     assignees: danmassarano
 -->
