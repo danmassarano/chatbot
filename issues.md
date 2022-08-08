@@ -1,9 +1,3 @@
-<!-- TODO: Consolidate data sources into one directory.
-    Data sources are scattered across 3 subprojects - these should all be contained in a data directory.
-    labels: refactor
-    assignees: danmassarano
--->
-
 <!-- TODO: Organise project into extract/transform/train/run structure
     This project was initially created in a hackathon so things got rushed. Update structure so that it's properly organised
     labels: refactor
