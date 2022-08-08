@@ -18,7 +18,7 @@ def get_tweets(pagination_token=None):
         get_tweets(res.meta["next_token"])
 
 
-f = open("./edthewlis_twitter_dump.csv", "w")
+f = open("source/edthewlis_twitter_dump.csv", "w")
 writer = csv.writer(f, lineterminator="\n")
 
 client = tweepy.Client(os.getenv("TWITTER_BEARER_TOKEN"))
