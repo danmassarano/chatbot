@@ -4,18 +4,6 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Double check GitHub project settings
-    Make sure that repo is set up correctly with branch policy, contributors, etc.
-    labels: ci
-    assignees: danmassarano
--->
-
-<!-- TODO: Add proper linting and code formatting
-    Set up Black and reformat all code in repo
-    labels: ci
-    assignees: danmassarano
--->
-
 <!-- TODO: Organise project into extract/transform/train/run structure
     This project was initially created in a hackathon so things got rushed. Update structure so that it's properly organised
     labels: refactor
@@ -43,12 +31,16 @@
 
 <!-- TODO: Add pre commit hook
     Look into best ways to do this - it should check for things like tests, branching, linting, that requirements are updated, etc
+    - Run black formatting
+    - Run pylint
     labels: ci
     assignees: danmassarano
 -->
 
 <!-- TODO: Add GitHub Actions for CI
     Actions for linting, running tests, checking code quality, security issues, broken/deprecated dependencies, missing requirements, and building
+    - Run black formatting
+    - Run pylint
     labels: ci
     assignees: danmassarano
 -->

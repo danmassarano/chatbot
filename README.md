@@ -1,5 +1,7 @@
 # ed_faux_list
 
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 Scraping of Ed's MS Teams and/or social media messages and building an Ed message generator to pass a Turing Test
 
 ## `chatterbot`

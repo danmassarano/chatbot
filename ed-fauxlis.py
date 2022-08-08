@@ -8,7 +8,6 @@ from chatterbot.trainers import ChatterBotCorpusTrainer
 
 chatbot = ChatBot("Ed Fauxlis")
 trainer = ChatterBotCorpusTrainer(chatbot)
-
 trainer.train("text")
 
 while True:
