@@ -14,16 +14,19 @@ def get_tweets(pagination_token=None):
     print("writing out tweets...")
     for tweet in res.data:
         writer.writerow([tweet.text])
-    if res.meta["next_token"]:
+        print(tweet.text)
+    try:
         get_tweets(res.meta["next_token"])
+    except:
+        print('\nEnd of tweets\n')
 
 
-f = open("source/edthewlis_twitter_dump.csv", "w")
+f = open("input/twitter_dump.csv", "w")
 writer = csv.writer(f, lineterminator="\n")
-
 client = tweepy.Client(os.getenv("TWITTER_BEARER_TOKEN"))
 
 ed = client.get_user(username="edthewlis")
+# ed = client.get_user(username="elonmusk")
 print(ed)
 
 get_tweets()
