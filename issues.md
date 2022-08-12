@@ -58,11 +58,6 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: load_twitter_data should be a general 'load_from_csv' method
-    labels: refactor
-    assignees: danmassarano
--->
-
 <!-- TODO: load_linkedin_data should be a general 'load_from_json' method
     labels: refactor
     assignees: danmassarano
