@@ -16,14 +16,14 @@ def get_tweets(user, pagination_token=None):
     )
     for tweet in res.data:
         writer.writerow([tweet.text])
-        print(tweet.text)
     try:
-        get_tweets(res.meta["next_token"])
+        get_tweets(user, res.meta["next_token"])
     except:
-        print("\nEnd of tweets\n")
+        None
 
 
 def get_all_tweets(username, output):
+    print(f"Getting tweets for {username}...", end="")
     global writer, client
 
     output_file = open("input/" + output + ".csv", "w")
@@ -32,7 +32,7 @@ def get_all_tweets(username, output):
     user = client.get_user(username=username)
 
     get_tweets(user)
-
+    print(" done")
     output_file.close()
 
 

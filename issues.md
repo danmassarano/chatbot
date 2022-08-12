@@ -22,12 +22,6 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Improve data cleanse and normalisation process
-    Data cleansing is currently a bit clumsy and requires manual checking and intervention. Rewrite so that it can run properly and integrate so it's fully automated
-    labels: enhancement
-    assignees: danmassarano
--->
-
 <!-- TODO: Write tests
     Write unit tests for as much as possible. There are some limitations, such as that you can't really unit test AI stuff, but do whatever is possible
     There are some refactoring dependencies that need to be handled first
@@ -37,6 +31,11 @@
 
 <!-- TODO: Add error handling
     Add wherever applicable - especially important in the data scraping classes
+    labels: enhancement
+    assignees: danmassarano
+-->
+
+<!-- TODO: Udd utils file to orchestrate
     labels: enhancement
     assignees: danmassarano
 -->

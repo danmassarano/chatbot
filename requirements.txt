@@ -1,3 +1,2 @@
 markovify==0.9.4
-nltk==3.7
 tweepy==4.10.0

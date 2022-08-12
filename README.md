@@ -11,7 +11,7 @@ Currently only supports Twitter
 ```sh
 pip install -r requirements.txt
 python extract.py
-python data_cleanse.py #Currently does nothing
+python data_cleanse.py
 python markov_chain.py
 ```
 
