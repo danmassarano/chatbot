@@ -1,13 +1,13 @@
-<!-- TODO: Write tests
-    Write unit tests for as much as possible. There are some limitations, such as that you can't really unit test AI stuff, but do whatever is possible
-    There are some refactoring dependencies that need to be handled first
-    labels: enhancement
+<!-- TODO: Update data loader to read all files in data directory
+    Data loader is using hardcoded paths at present - update so that it just iterates through a directory and loads everything
+    labels: refactor
     assignees: danmassarano
 -->
 
 <!-- TODO: Add pre commit hook
     Look into best ways to do this
     - Run black formatting
+    - Remove whitespaces
     - Run pylint
     - Sort imports
     - Update requirements
@@ -28,6 +28,19 @@
     assignees: danmassarano
 -->
 
+<!-- TODO: Improve data cleanse and normalisation process
+    Data cleansing is currently a bit clumsy and requires manual checking and intervention. Rewrite so that it can run properly and integrate so it's fully automated
+    labels: enhancement
+    assignees: danmassarano
+-->
+
+<!-- TODO: Write tests
+    Write unit tests for as much as possible. There are some limitations, such as that you can't really unit test AI stuff, but do whatever is possible
+    There are some refactoring dependencies that need to be handled first
+    labels: enhancement
+    assignees: danmassarano
+-->
+
 <!-- TODO: Add error handling
     Add wherever applicable - especially important in the data scraping classes
     labels: enhancement
@@ -40,8 +53,10 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Write up proper README
-    labels: documentation
+<!-- TODO: Add dockerfile for chatbot
+    The chatbot runs on an older version of python so will need to be run in a container
+    May need to handle Mac (Silicon and Intel) and Windows differently
+    labels: ci
     assignees: danmassarano
 -->
 
@@ -51,35 +66,9 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Add dockerfile for chatbot
-    The chatbot runs on an older version of python so will need to be run in a container
-    May need to handle Mac (Silicon and Intel) and Windows differently
-    labels: ci
-    assignees: danmassarano
--->
-
-<!-- TODO: Update data loader to read all files in data directory
-    Data loader is using hardcoded paths at present - update so that it just iterates through a directory and loads everything
-    labels: refactor
-    assignees: danmassarano
--->
-
-<!-- TODO: Improve data cleanse and normalisation process
-    Data cleansing is currently a bit clumsy and requires manual checking and intervention. Rewrite so that it can run properly and integrate so it's fully automated
-    labels: enhancement
-    assignees: danmassarano
--->
-
-
 <!-- TODO: Add automated way of transforming data sources to .yml
     This is currently a manual process but should be automated
     labels: enhancement
-    assignees: danmassarano
--->
-
-<!-- TODO: Add lockfile
-    Get this in place once requirements are more stable
-    labels: ci
     assignees: danmassarano
 -->
 
