@@ -4,11 +4,10 @@ import json
 import markovify
 
 
-# Load Teams posts from Teams
-def load_teams_data():
-    with open("input/ed_teams_messages.txt.clean") as f:
-        teamsString = f.read()
-        return teamsString
+def load_text_file(filename):
+    with open("./input/" + filename + ".txt") as file:
+        text_file_string = file.read()
+        return text_file_string
 
 
 # Load Twitter posts from CSV
@@ -31,12 +30,13 @@ def load_linkedin_data():
         return linkedinString
 
 
-teams = load_teams_data()
-twitter = load_twitter_data()
-linkedin = load_linkedin_data()
+text_file = load_text_file("ed_teams_messages")
+# twitter = load_twitter_data()
+# linkedin = load_linkedin_data()
 
-# Build the model
-text_model = markovify.Text(teams + twitter + linkedin)
+# # Build the model
+# text_model = markovify.Text(teams + twitter + linkedin)
+text_model = markovify.Text(text_file)
 
 # Print five randomly-generated sentences
 print("Print five randomly-generated sentences:\n")
