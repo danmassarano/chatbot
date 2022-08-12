@@ -58,11 +58,6 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: load_linkedin_data should be a general 'load_from_json' method
-    labels: refactor
-    assignees: danmassarano
--->
-
 <!-- TODO: Update data loader to read all files in data directory
     Data loader is using hardcoded paths at present - update so that it just iterates through a directory and loads everything
     labels: refactor
