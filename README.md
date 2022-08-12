@@ -1,33 +1,18 @@
-# ed_faux_list
+# Chatbot
 
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 
-Scraping of Ed's MS Teams and/or social media messages and building an Ed message generator to pass a Turing Test
+Builds a message generator and chatbot based on training data scraped from a given person's social media.
 
-## `chatterbot`
+Currently only supports Twitter
 
-Uses the corpuses…corpi…corpora…files located in the `text` directory.
-
-`chatterbot` requires Python 3.6 and some specific versions of dependencies:
+## Usage
 
 ```sh
-python3 -m pip install chatterbot
-python3 -m pip install spacy==2.1.9
-python3 -m spacy download en
-python3 -m pip install pyyaml==5.4.1
+pip install -r requirements.txt
+python extract.py
+python data_cleanse.py #Currently does nothing
+python markov_chain.py
 ```
 
-After that, run:
-
-```sh
-./ed-fauxlis.py
-```
-
-## data cleaning
-
-* remove urls
-* remove @<username>
-* remove things wrapped in brackets
-* remove non-printing unicode
-* remove hashtags
-* remove ellipsis
+Scrapes the web and stores data in `./input` directory which is then cleaned and loaded into either `markov_chain` or `chat_bot`.

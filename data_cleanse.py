@@ -1,6 +1,15 @@
 # import re
 # import sys
 
+"""
+    * remove urls
+    * remove @<username>
+    * remove things wrapped in brackets
+    * remove non-printing unicode
+    * remove hashtags
+    * remove ellipsis
+"""
+
 # input = open(sys.argv[1], "r")
 # output = open(sys.argv[1] + ".clean", "w")
 

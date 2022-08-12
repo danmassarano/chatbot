@@ -40,11 +40,6 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Write up proper README
-    labels: documentation
-    assignees: danmassarano
--->
-
 <!-- TODO: Add makefile to build requirements and run
     This should allow everything to run on all machines as long as they have python3.9 installed
     labels: ci
@@ -74,12 +69,6 @@
 <!-- TODO: Add automated way of transforming data sources to .yml
     This is currently a manual process but should be automated
     labels: enhancement
-    assignees: danmassarano
--->
-
-<!-- TODO: Add lockfile
-    Get this in place once requirements are more stable
-    labels: ci
     assignees: danmassarano
 -->
 
