@@ -1,9 +1,3 @@
-<!-- TODO: Update data loader to read all files in data directory
-    Data loader is using hardcoded paths at present - update so that it just iterates through a directory and loads everything
-    labels: refactor
-    assignees: danmassarano
--->
-
 <!-- TODO: Add pre commit hook
     Look into best ways to do this
     - Run black formatting
