@@ -1,50 +1,28 @@
-# import re
-# import sys
-
-"""
-    * remove urls
-    * remove @<username>
-    * remove things wrapped in brackets
-    * remove non-printing unicode
-    * remove hashtags
-    * remove ellipsis
-"""
-
-# input = open(sys.argv[1], "r")
-# output = open(sys.argv[1] + ".clean", "w")
-
-# print(f"Input: {input}")
-# print(f"Output: {output}")
+import sys
+import re
 
 
-# def clean_line(line):
-#     # * remove things wrapped in brackets
-#     line = re.sub(r"\[\S+\]", "", line)
-#     line = re.sub(r"\(\S+\)", "", line)
+def clean_line(line):
+    line = re.sub(r'http\S+', '', line) # Remove links
+    line = re.sub(r"@[^\" ]+", "", line) # Remove usernames
+    line = re.sub(r'[^\w\s]', '', line) # Remove punctuation
+    line = re.sub(r'[0-9]+', '', line) # Remove numbers
+    line = re.sub(' +', ' ', line) # Remove whitespace
+    line = line.lower()
+    line = line.strip()
 
-#     # * remove urls
-#     line = re.sub(r"http[^\" ]+\b", "", line)
+    return line
 
-#     # * remove @<username>
-#     line = re.sub(r" @[^\" ]+\b", "", line)
-#     line = re.sub(r"^@[^\" ]+\b", "", line)
-#     line = re.sub(r"^\"@[^\" ]+\b", "", line)
+input = open(sys.argv[1], "r")
+output = open(sys.argv[1] + ".clean", "w")
 
-#     # * remove hashtags
-#     line = re.sub(r" #[^\" ]+\b", "", line)
+print(f"Input: {input}")
+print(f"Output: {output}")
 
-#     # * ellipsis
-#     line = re.sub(r"\.\.\.", "", line)
+for line in input.readlines():
+    new_line = clean_line(line)
+    if (new_line):
+        output.writelines(new_line + '\n')
 
-#     # * remove non-printing unicode
-#     # line = re.sub(r"[^ -~]+", "", line)
-
-#     return line
-
-
-# for line in input.readlines():
-#     new_line = clean_line(line)
-#     output.writelines(new_line)
-
-# input.close()
-# output.close()
+input.close()
+output.close()
