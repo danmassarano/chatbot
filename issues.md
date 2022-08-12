@@ -1,15 +1,3 @@
-<!-- TODO: Refactor classes used to grab source data
-    Go back to just using twitter for now and build an elon-bot and have it scrape data properly
-    labels: refactor
-    assignees: danmassarano
--->
-
-<!-- TODO: Get proper requirements files in place
-    There's really 5 projects in here, each with their own requirements - get this consolidated properly.
-    labels: refactor
-    assignees: danmassarano
--->
-
 <!-- TODO: Write tests
     Write unit tests for as much as possible. There are some limitations, such as that you can't really unit test AI stuff, but do whatever is possible
     There are some refactoring dependencies that need to be handled first
