@@ -11,13 +11,13 @@ def load_text_file(filename):
 
 
 # Load Twitter posts from CSV
-def load_twitter_data():
-    with open("input/edthewlis_twitter_dump.csv.clean", newline="") as csvfile:
-        twitterData = csv.reader(csvfile)
-        twitterString = ""
-        for row in twitterData:
-            twitterString += row[0]
-        return twitterString
+def load_csv_file(filename):
+    with open("./input/" + filename + ".csv", newline="") as file:
+        csv_file = csv.reader(file)
+        csv_file_string = ""
+        for row in csv_file:
+            csv_file_string += row[0]
+        return csv_file_string
 
 
 # Load LinkedIn posts from JSON
@@ -31,12 +31,12 @@ def load_linkedin_data():
 
 
 text_file = load_text_file("ed_teams_messages")
-# twitter = load_twitter_data()
+csv_file = load_csv_file("edthewlis_twitter_dump")
 # linkedin = load_linkedin_data()
 
-# # Build the model
-# text_model = markovify.Text(teams + twitter + linkedin)
-text_model = markovify.Text(text_file)
+
+print("Training model...")
+text_model = markovify.Text(text_file + csv_file)
 
 # Print five randomly-generated sentences
 print("Print five randomly-generated sentences:\n")
