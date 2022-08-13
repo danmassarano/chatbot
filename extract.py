@@ -18,7 +18,7 @@ def get_tweets(user, pagination_token=None):
         writer.writerow([tweet.text])
     try:
         get_tweets(user, res.meta["next_token"])
-    except:
+    except Exception:
         None
 
 

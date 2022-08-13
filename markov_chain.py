@@ -1,7 +1,7 @@
 import csv
 import json
 import os
-from constants import *
+from constants import INPUT_DIR
 
 import markovify
 
@@ -55,12 +55,10 @@ print("Training model...", end="")
 text_model = markovify.Text(file_string)
 print(" done\n")
 
-# Print five randomly-generated sentences
-print("Print five randomly-generated sentences:\n")
+print("Print five sentences:\n")
 for i in range(5):
     print(text_model.make_sentence())
 
-# Print three randomly-generated sentences of no more than 280 characters
-print("\nPrint three randomly-generated sentences of no more than 280 characters:\n")
+print("\nPrint three sentences of no more than 280 characters:\n")
 for i in range(3):
     print(text_model.make_short_sentence(280))

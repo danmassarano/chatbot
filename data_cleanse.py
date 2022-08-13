@@ -1,15 +1,13 @@
 import re
 import os
-from constants import *
+from constants import INPUT_DIR
 
 
 def clean_line(line):
     line = re.sub(r"http\S+", "", line)  # Remove links
     line = re.sub(r"@[^\" ]+", "", line)  # Remove usernames
-    # line = re.sub(r"[^\w\s]", "", line) # Remove punctuation
     line = re.sub(r"[0-9]+", "", line)  # Remove numbers
     line = re.sub(" +", " ", line)  # Remove whitespace
-    # line = line.lower()
     line = line.strip()
 
     return line
