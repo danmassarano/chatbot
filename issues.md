@@ -10,9 +10,7 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Write tests
-    Write unit tests for as much as possible. There are some limitations, such as that you can't really unit test AI stuff, but do whatever is possible
-    There are some refactoring dependencies that need to be handled first
+<!-- TODO: Add orchestration file
     labels: enhancement
     assignees: danmassarano
 -->
@@ -23,14 +21,16 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Add orchestration file
-    labels: enhancement
-    assignees: danmassarano
--->
-
 <!-- TODO: Documentation
     Add docstrings and documentation for classes and methods
     labels: documentation
+    assignees: danmassarano
+-->
+
+<!-- TODO: Write tests
+    Write unit tests for as much as possible. There are some limitations, such as that you can't really unit test AI stuff, but do whatever is possible
+    There are some refactoring dependencies that need to be handled first
+    labels: enhancement
     assignees: danmassarano
 -->
 
