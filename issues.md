@@ -1,15 +1,3 @@
-<!-- TODO: Add pre commit hook
-    Look into best ways to do this
-    - Run black formatting
-    - Remove whitespaces
-    - Run pylint
-    - Sort imports
-    - Update requirements
-    - Not committing on main
-    labels: ci
-    assignees: danmassarano
--->
-
 <!-- TODO: Add GitHub Actions for CI
     Actions for linting, running tests, checking code quality, security issues, broken/deprecated dependencies, missing requirements, and building
     - Run pylint
@@ -35,7 +23,7 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Udd utils file to orchestrate
+<!-- TODO: Add orchestration file
     labels: enhancement
     assignees: danmassarano
 -->

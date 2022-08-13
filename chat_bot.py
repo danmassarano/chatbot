@@ -2,7 +2,7 @@
 # from chatterbot.trainers import ChatterBotCorpusTrainer
 
 # """
-#     `chatterbot` requires Python 3.6 and some specific versions of dependencies:
+#     `chatterbot` requires Python 3.6 and specific versions of dependencies:
 
 #     ```sh
 #         python3 -m pip install chatterbot
