@@ -34,7 +34,3 @@ def get_all_tweets(username, output):
     get_tweets(user)
     print(" done")
     output_file.close()
-
-
-get_all_tweets("edthewlis", "twitter_dump")
-# get_all_tweets("elonmusk", "twitter_dump")

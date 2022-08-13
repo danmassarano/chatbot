@@ -45,20 +45,20 @@ def load_input_files():
     return file_string
 
 
-print("Loading data...", end="")
-file_string = load_input_files()
-print(" done")
+def train_text_model():
+    print("Loading data...", end="")
+    file_string = load_input_files()
+    print(" done")
 
-print(file_string)
+    print("Training model...", end="")
+    text_model = markovify.Text(file_string)
+    print(" done\n")
+    return text_model
 
-print("Training model...", end="")
-text_model = markovify.Text(file_string)
-print(" done\n")
 
-print("Print five sentences:\n")
-for i in range(5):
-    print(text_model.make_sentence())
+def output_sentence(text_model):
+    return text_model.make_sentence()
 
-print("\nPrint three sentences of no more than 280 characters:\n")
-for i in range(3):
-    print(text_model.make_short_sentence(280))
+
+def output_short_sentence(text_model, size):
+    return text_model.make_short_sentence(size)

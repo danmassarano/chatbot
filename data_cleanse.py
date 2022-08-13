@@ -29,7 +29,7 @@ def clean_data_unstructured(filename):
     print(" done")
 
 
-def load_input_files():
+def clean_input_files():
     directory = os.fsencode(INPUT_DIR)
     for file in os.listdir(directory):
         filename = os.fsdecode(file)
@@ -38,6 +38,3 @@ def load_input_files():
                 clean_data_unstructured(filename)
             elif filename.endswith(".csv"):
                 clean_data_unstructured(filename)
-
-
-load_input_files()

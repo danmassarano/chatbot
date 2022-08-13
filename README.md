@@ -10,9 +10,7 @@ Currently only supports Twitter
 
 ```sh
 pip install -r requirements.txt
-python extract.py
-python data_cleanse.py
-python markov_chain.py
+python chatbot.py
 ```
 
-Scrapes the web and stores data in `./input` directory which is then cleaned and loaded into either `markov_chain` or `chat_bot`.
+Scrapes the web and stores data in `./input` directory which is then cleaned and loaded into `markov_chain` any outputs a given number of sentences
