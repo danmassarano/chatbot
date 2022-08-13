@@ -1,15 +1,3 @@
-<!-- TODO: Add GitHub Actions for CI
-    Actions for linting, running tests, checking code quality, security issues, broken/deprecated dependencies, missing requirements, and building
-    - Run pylint
-    - All requirements are set
-    - Dependencies are up to date
-    - Security scans
-    - Code quality scan
-    - Build
-    labels: ci
-    assignees: danmassarano
--->
-
 <!-- TODO: Add orchestration file
     labels: enhancement
     assignees: danmassarano
