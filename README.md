@@ -1,8 +1,7 @@
 # Chatbot
 
-[![Tag Version](https://github.com/danmassarano/chatbot/actions/workflows/tag_version.yml/badge.svg)](https://github.com/danmassarano/chatbot/actions/workflows/tag_version.yml)
-
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Tag Version](https://github.com/danmassarano/chatbot/actions/workflows/tag_version.yml/badge.svg)](https://github.com/danmassarano/chatbot/actions/workflows/tag_version.yml)
 
 Builds a message generator and chatbot based on training data scraped from a
 given person's social media.
