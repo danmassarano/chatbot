@@ -1,19 +1,20 @@
 import csv
 import json
 import os
-from constants import INPUT_DIR
+
+from constants import CLEANED_DATA_DIR
 
 import markovify
 
 
 def load_text_file(filename):
-    with open(f"{INPUT_DIR}/{filename}") as file:
+    with open(f"{CLEANED_DATA_DIR}/{filename}") as file:
         text_file_string = file.read()
         return text_file_string
 
 
 def load_csv_file(filename):
-    with open(f"{INPUT_DIR}/{filename}", newline="\n") as file:
+    with open(f"{CLEANED_DATA_DIR}/{filename}", newline="\n") as file:
         csv_file = csv.reader(file)
         csv_file_string = ""
         for row in csv_file:
@@ -22,7 +23,7 @@ def load_csv_file(filename):
 
 
 def load_json_file(filename, text):
-    with open(f"{INPUT_DIR}/{filename}") as json_file:
+    with open(f"{CLEANED_DATA_DIR}/{filename}") as json_file:
         json_file = json.load(json_file)
         json_file_string = ""
         for i in range(0, len(json_file)):
@@ -31,17 +32,16 @@ def load_json_file(filename, text):
 
 
 def load_input_files():
-    directory = os.fsencode(INPUT_DIR)
+    directory = os.fsencode(CLEANED_DATA_DIR)
     file_string = ""
     for file in os.listdir(directory):
         filename = os.fsdecode(file)
-        if filename.startswith("cleaned"):
-            if filename.endswith(".txt"):
-                file_string += load_text_file(filename)
-            elif filename.endswith(".csv"):
-                file_string += load_csv_file(filename)
-            elif filename.endswith(".json"):
-                file_string += load_json_file(filename, "text")
+        if filename.endswith(".txt"):
+            file_string += load_text_file(filename)
+        elif filename.endswith(".csv"):
+            file_string += load_csv_file(filename)
+        elif filename.endswith(".json"):
+            file_string += load_json_file(filename, "text")
     return file_string
 
 

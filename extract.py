@@ -1,6 +1,8 @@
 import csv
 import os
 
+from constants import RAW_DATA_DIR
+
 import tweepy
 
 writer = None
@@ -26,7 +28,7 @@ def get_all_tweets(username, output):
     print(f"Getting tweets for {username}...", end="")
     global writer, client
 
-    output_file = open("input/" + output + ".csv", "w")
+    output_file = open(f"{RAW_DATA_DIR}/{output}.csv", "w")
     writer = csv.writer(output_file, lineterminator="\n")
     client = tweepy.Client(os.getenv("TWITTER_BEARER_TOKEN"))
     user = client.get_user(username=username)
