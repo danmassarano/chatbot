@@ -1,10 +1,8 @@
-from src.extract import get_all_tweets
 from src.data_cleanse import clean_input_files
-from src.markov_chain import (
-    train_text_model,
-    output_sentence,
-    output_short_sentence,
-)
+from src.extract import get_all_tweets
+from src.markov_chain import output_sentence
+from src.markov_chain import output_short_sentence
+from src.markov_chain import train_text_model
 
 
 get_all_tweets("edthewlis", "twitter_dump")

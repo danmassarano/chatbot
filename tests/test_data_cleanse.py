@@ -1,18 +1,14 @@
-import unittest
 import os
-
+import unittest
 from os.path import exists
 
-from src.data_cleanse import (
-    clean_line,
-    clean_data_unstructured,
-    clean_input_files,
-)
-from test_constants import (
-    CLEANED_DATA_DIR,
-    RAW_DATA_DIR,
-    EXPECTED_DATA_DIR,
-)
+from test_constants import CLEANED_DATA_DIR
+from test_constants import EXPECTED_DATA_DIR
+from test_constants import RAW_DATA_DIR
+
+from src.data_cleanse import clean_data_unstructured
+from src.data_cleanse import clean_input_files
+from src.data_cleanse import clean_line
 
 
 class TestDataCleanse(unittest.TestCase):

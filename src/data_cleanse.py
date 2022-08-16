@@ -1,6 +1,8 @@
-import re
 import os
-from src.constants import RAW_DATA_DIR, CLEANED_DATA_DIR
+import re
+
+from src.constants import CLEANED_DATA_DIR
+from src.constants import RAW_DATA_DIR
 
 
 def clean_line(line):

@@ -1,9 +1,9 @@
 import csv
 import os
 
-from src.constants import RAW_DATA_DIR
-
 import tweepy
+
+from src.constants import RAW_DATA_DIR
 
 writer = None
 client = None

@@ -2,9 +2,9 @@ import csv
 import json
 import os
 
-from src.constants import CLEANED_DATA_DIR
-
 import markovify
+
+from src.constants import CLEANED_DATA_DIR
 
 
 def load_text_file(filename):

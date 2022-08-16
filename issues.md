@@ -4,6 +4,14 @@
     assignees: danmassarano
 -->
 
+<!-- TODO: Add workflows and badges for stuff
+    - Build version
+    - Test coverage
+    - Run tests on different python versions
+    labels: ci, documentation
+    assignees: danmassarano
+-->
+
 <!-- TODO: Documentation
     Add docstrings and documentation for classes and methods
     labels: documentation
