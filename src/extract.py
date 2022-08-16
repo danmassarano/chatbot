@@ -1,7 +1,7 @@
 import csv
 import os
 
-from constants import RAW_DATA_DIR
+from src.constants import RAW_DATA_DIR
 
 import tweepy
 

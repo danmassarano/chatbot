@@ -2,7 +2,7 @@ import csv
 import json
 import os
 
-from constants import CLEANED_DATA_DIR
+from src.constants import CLEANED_DATA_DIR
 
 import markovify
 

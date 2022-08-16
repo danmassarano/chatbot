@@ -1,9 +1,14 @@
 import unittest
+import os
 
 from os.path import exists
 
-from data_cleanse import clean_line, clean_data_unstructured, clean_input_files
-from tests.test_constants import (
+from src.data_cleanse import (
+    clean_line,
+    clean_data_unstructured,
+    clean_input_files,
+)
+from test_constants import (
     CLEANED_DATA_DIR,
     RAW_DATA_DIR,
     EXPECTED_DATA_DIR,
@@ -15,7 +20,7 @@ class TestDataCleanse(unittest.TestCase):
         """
         Test that cleaning a single line works as expected
         """
-        line = "@OffMenuOfficial thoughts, chaps? https://t.co/Am7Lpdc74Q"
+        line = "@uname1 thoughts, chaps? https://t.co/AVra5sdv"
         expected = "thoughts, chaps?"
         result = clean_line(line)
         self.assertEqual(result, expected)
@@ -24,7 +29,7 @@ class TestDataCleanse(unittest.TestCase):
         """
         Test that links are removed
         """
-        line = "Here https://t.co/Am7Lpdc74Q"
+        line = "Here https://t.co/AVra5sdv"
         expected = "Here"
         result = clean_line(line)
         self.assertEqual(result, expected)
@@ -33,7 +38,7 @@ class TestDataCleanse(unittest.TestCase):
         """
         Test that usernames are removed
         """
-        line = "@OffMenuOfficial thoughts"
+        line = "@uname1 thoughts"
         expected = "thoughts"
         result = clean_line(line)
         self.assertEqual(result, expected)
@@ -42,7 +47,7 @@ class TestDataCleanse(unittest.TestCase):
         """
         Test that multiple usernames are removed
         """
-        line = "@YAhkter @KaneFulton @DataShedAnna I think"
+        line = "@uname2 @uname2 @uname3 I think"
         expected = "I think"
         result = clean_line(line)
         self.assertEqual(result, expected)
@@ -69,48 +74,66 @@ class TestDataCleanse(unittest.TestCase):
         """
         Tests that csv file is processed correctly
         """
+
         filename = "test_csv.csv"
-        clean_data_unstructured(filename, RAW_DATA_DIR, CLEANED_DATA_DIR)
 
-        expected_file = open(f"{EXPECTED_DATA_DIR}/{filename}", "r")
-        expected = expected_file.read()
-        expected_file.close()
+        try:
+            clean_data_unstructured(filename, RAW_DATA_DIR, CLEANED_DATA_DIR)
 
-        result_file = open(f"{CLEANED_DATA_DIR}/{filename}", "r")
-        result = result_file.read()
-        result_file.close()
+            expected_file = open(f"{EXPECTED_DATA_DIR}/{filename}", "r")
+            expected = expected_file.read()
+            expected_file.close()
 
-        self.assertEqual(result, expected)
+            result_file = open(f"{CLEANED_DATA_DIR}/{filename}", "r")
+            result = result_file.read()
+            result_file.close()
+
+            self.assertEqual(result, expected)
+
+        finally:
+            if exists(f"{CLEANED_DATA_DIR}/{filename}"):
+                os.remove(f"{CLEANED_DATA_DIR}/{filename}")
 
     def test_clean_text_file(self):
         """
         Tests that text file is processed correctly
         """
+
         filename = "test_txt.txt"
-        clean_data_unstructured(filename, RAW_DATA_DIR, CLEANED_DATA_DIR)
 
-        expected_file = open(f"{EXPECTED_DATA_DIR}/{filename}", "r")
-        expected = expected_file.read()
-        expected_file.close()
+        try:
+            clean_data_unstructured(filename, RAW_DATA_DIR, CLEANED_DATA_DIR)
 
-        result_file = open(f"{CLEANED_DATA_DIR}/{filename}", "r")
-        result = result_file.read()
-        result_file.close()
+            expected_file = open(f"{EXPECTED_DATA_DIR}/{filename}", "r")
+            expected = expected_file.read()
+            expected_file.close()
 
-        self.assertEqual(result, expected)
+            result_file = open(f"{CLEANED_DATA_DIR}/{filename}", "r")
+            result = result_file.read()
+            result_file.close()
+
+            self.assertEqual(result, expected)
+
+        finally:
+            if exists(f"{CLEANED_DATA_DIR}/{filename}"):
+                os.remove(f"{CLEANED_DATA_DIR}/{filename}")
 
     def test_clean_input_files(self):
         """
         Tests that all files are processed
         """
-        clean_input_files(RAW_DATA_DIR)
 
         expected_txt = f"{CLEANED_DATA_DIR}/test_txt.txt"
         expected_csv = f"{CLEANED_DATA_DIR}/test_csv.csv"
 
-        self.assertTrue(exists(expected_txt))
-        self.assertTrue(exists(expected_csv))
+        try:
+            clean_input_files(RAW_DATA_DIR, CLEANED_DATA_DIR)
 
+            self.assertTrue(exists(expected_txt))
+            self.assertTrue(exists(expected_csv))
 
-if __name__ == "__main__":
-    unittest.main()
+        finally:
+            if exists(expected_txt):
+                os.remove(expected_txt)
+            if exists(expected_csv):
+                os.remove(expected_csv)
