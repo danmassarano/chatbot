@@ -19,6 +19,9 @@ class TestExtract(unittest.TestCase):
         filename = "test_csv"
 
         try:
+            if not os.path.exists(CLEANED_DATA_DIR):
+                os.makedirs(CLEANED_DATA_DIR)
+
             with mock.patch("src.extract.tweepy.Client") as mock_client:
                 with mock.patch("tweepy.client.Client.get_user") as mock_user:
                     with mock.patch(
@@ -47,3 +50,5 @@ class TestExtract(unittest.TestCase):
         finally:
             if exists(f"{CLEANED_DATA_DIR}/{filename}.csv"):
                 os.remove(f"{CLEANED_DATA_DIR}/{filename}.csv")
+            if os.path.exists(CLEANED_DATA_DIR):
+                os.rmdir(CLEANED_DATA_DIR)

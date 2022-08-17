@@ -74,6 +74,9 @@ class TestDataCleanse(unittest.TestCase):
         filename = "test_csv.csv"
 
         try:
+            if not os.path.exists(CLEANED_DATA_DIR):
+                os.makedirs(CLEANED_DATA_DIR)
+
             clean_data_unstructured(filename, RAW_DATA_DIR, CLEANED_DATA_DIR)
 
             expected_file = open(f"{EXPECTED_DATA_DIR}/{filename}", "r")
@@ -89,6 +92,8 @@ class TestDataCleanse(unittest.TestCase):
         finally:
             if exists(f"{CLEANED_DATA_DIR}/{filename}"):
                 os.remove(f"{CLEANED_DATA_DIR}/{filename}")
+            if os.path.exists(CLEANED_DATA_DIR):
+                os.rmdir(CLEANED_DATA_DIR)
 
     def test_clean_text_file(self):
         """
@@ -98,6 +103,9 @@ class TestDataCleanse(unittest.TestCase):
         filename = "test_txt.txt"
 
         try:
+            if not os.path.exists(CLEANED_DATA_DIR):
+                os.makedirs(CLEANED_DATA_DIR)
+
             clean_data_unstructured(filename, RAW_DATA_DIR, CLEANED_DATA_DIR)
 
             expected_file = open(f"{EXPECTED_DATA_DIR}/{filename}", "r")
@@ -113,6 +121,8 @@ class TestDataCleanse(unittest.TestCase):
         finally:
             if exists(f"{CLEANED_DATA_DIR}/{filename}"):
                 os.remove(f"{CLEANED_DATA_DIR}/{filename}")
+            if os.path.exists(CLEANED_DATA_DIR):
+                os.rmdir(CLEANED_DATA_DIR)
 
     def test_clean_input_files(self):
         """
@@ -123,6 +133,9 @@ class TestDataCleanse(unittest.TestCase):
         expected_csv = f"{CLEANED_DATA_DIR}/test_csv.csv"
 
         try:
+            if not os.path.exists(CLEANED_DATA_DIR):
+                os.makedirs(CLEANED_DATA_DIR)
+
             clean_input_files(RAW_DATA_DIR, CLEANED_DATA_DIR)
 
             self.assertTrue(exists(expected_txt))
@@ -133,3 +146,5 @@ class TestDataCleanse(unittest.TestCase):
                 os.remove(expected_txt)
             if exists(expected_csv):
                 os.remove(expected_csv)
+            if os.path.exists(CLEANED_DATA_DIR):
+                os.rmdir(CLEANED_DATA_DIR)
