@@ -1,3 +1,6 @@
+bandit
+coverage
 markovify==0.9.4
+nose
 pre-commit
 tweepy==4.10.0
