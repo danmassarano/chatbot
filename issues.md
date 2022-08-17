@@ -4,24 +4,17 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Add workflows and badges for stuff
-    - Build version
-    - Test coverage
-    - Run tests on different python versions
-    labels: ci, documentation
-    assignees: danmassarano
--->
-
 <!-- TODO: Documentation
     Add docstrings and documentation for classes and methods
     labels: documentation
     assignees: danmassarano
 -->
 
-<!-- TODO: Write tests
-    Write unit tests for as much as possible. There are some limitations, such as that you can't really unit test AI stuff, but do whatever is possible
-    There are some refactoring dependencies that need to be handled first
-    labels: enhancement
+<!-- TODO: Add workflows and badges for stuff
+    - Build version
+    - Test coverage
+    - Run tests on different python versions
+    labels: ci, documentation
     assignees: danmassarano
 -->
 

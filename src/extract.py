@@ -9,6 +9,12 @@ writer = None
 client = None
 
 
+# TODO: Refactor to return a string, dict, or list
+# This should just get data from twitter and return it. Writing out to
+# output file should be handled in a seperate method or in the
+# chatbot module
+# labels: refactor
+# assignees: danmassarano
 def get_tweets(user, pagination_token=None):
     res = client.get_users_tweets(
         user.data.id,
@@ -25,6 +31,12 @@ def get_tweets(user, pagination_token=None):
         None
 
 
+# TODO: Refactor all of this
+# This should contain seperate methods to create a client, create file,
+# get a user, and return a value. Calling get_tweets and closing file
+# should be done in a seperate method or in the chatbot module
+# labels: refactor
+# assignees: danmassarano
 def get_all_tweets(username, output, dir=RAW_DATA_DIR):
     print(f"Getting tweets for {username}...", end="")
     global writer, client

@@ -45,6 +45,11 @@ def load_input_files(dir=CLEANED_DATA_DIR):
     return file_string
 
 
+# TODO: Refactor to take a string input
+# This should just take a string input and the data load calls should be
+# handled in the chatbot module
+# labels: refactor
+# assignees: danmassarano
 def train_text_model(dir=CLEANED_DATA_DIR):
     print("Loading data...", end="")
     file_string = load_input_files(dir)
