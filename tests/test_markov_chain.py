@@ -47,14 +47,16 @@ class TestMarkovChain(unittest.TestCase):
         """
         Test that files are loaded into a trained text model
         """
-        result = train_text_model(EXPECTED_DATA_DIR)
+        training_data = load_input_files(EXPECTED_DATA_DIR)
+        result = train_text_model(training_data)
         self.assertIsNotNone(result)
 
     def test_output_sentence(self):
         """
         Test that a regular sentence is generated correctly
         """
-        text_model = train_text_model(EXPECTED_DATA_DIR)
+        training_data = load_input_files(EXPECTED_DATA_DIR)
+        text_model = train_text_model(training_data)
         for _ in range(5):
             result = output_sentence(text_model)
             self.assertIsNotNone(result)
@@ -63,7 +65,8 @@ class TestMarkovChain(unittest.TestCase):
         """
         Test that a regular sentence is generated correctly
         """
-        text_model = train_text_model(EXPECTED_DATA_DIR)
+        training_data = load_input_files(EXPECTED_DATA_DIR)
+        text_model = train_text_model(training_data)
         for _ in range(5):
             result = output_short_sentence(text_model, 280)
             self.assertIsNotNone(result)

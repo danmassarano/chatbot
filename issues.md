@@ -4,6 +4,13 @@
     assignees: danmassarano
 -->
 
+<!-- TODO: Solve the module address issue
+    Tests seem to require all modules to be prefixed with src but this breaks
+    the program when run
+    labels: bug
+    assignees: danmassarano
+-->
+
 <!-- TODO: Documentation
     Add docstrings and documentation for classes and methods
     labels: documentation
