@@ -32,6 +32,7 @@ def load_json_file(filename, text, dir=CLEANED_DATA_DIR):
 
 
 def load_input_files(dir=CLEANED_DATA_DIR):
+    print("Loading data...", end="")
     directory = os.fsencode(dir)
     file_string = ""
     for file in os.listdir(directory):
@@ -42,21 +43,13 @@ def load_input_files(dir=CLEANED_DATA_DIR):
             file_string += load_csv_file(filename, dir)
         elif filename.endswith(".json"):
             file_string += load_json_file(filename, "text", dir)
+        print(" done")
     return file_string
 
 
-# TODO: Refactor to take a string input
-# This should just take a string input and the data load calls should be
-# handled in the chatbot module
-# labels: refactor
-# assignees: danmassarano
-def train_text_model(dir=CLEANED_DATA_DIR):
-    print("Loading data...", end="")
-    file_string = load_input_files(dir)
-    print(" done")
-
+def train_text_model(training_data):
     print("Training model...", end="")
-    text_model = markovify.Text(file_string)
+    text_model = markovify.Text(training_data)
     print(" done\n")
     return text_model
 

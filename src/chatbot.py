@@ -1,5 +1,7 @@
-from src.data_cleanse import clean_input_files
+from data_cleanse import clean_input_files
+
 from src.extract import get_all_tweets
+from src.markov_chain import load_input_files
 from src.markov_chain import output_sentence
 from src.markov_chain import output_short_sentence
 from src.markov_chain import train_text_model
@@ -9,7 +11,10 @@ get_all_tweets("edthewlis", "twitter_dump")
 # get_all_tweets("elonmusk", "twitter_dump")
 clean_input_files()
 
-text_model = train_text_model()
+
+training_data = load_input_files()
+
+text_model = train_text_model(training_data)
 
 print("Print five sentences:\n")
 for i in range(5):
