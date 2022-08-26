@@ -4,6 +4,13 @@
     assignees: danmassarano
 -->
 
+<!-- TODO: Add integration test
+    Most changes will likely break unit tests, whereas integration tests
+    should still pass for bugfixes and minor changes.
+    labels: enhancement
+    assignees: danmassarano
+-->
+
 <!-- TODO: Solve the module address issue
     Tests seem to require all modules to be prefixed with src but this breaks
     the program when run
