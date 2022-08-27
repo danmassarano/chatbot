@@ -1,3 +1,4 @@
+"""test_extract runs unit tests on the extract module."""
 import os
 import unittest
 from collections import namedtuple
@@ -14,10 +15,24 @@ from src.extract import write_to_output_file
 
 
 class TestExtract(unittest.TestCase):
+    """
+    Runs unit tests on the extract module.
+
+    Methods
+    -------
+    test_get_api_client(mocker):
+        Test that api client is called correctly.
+    test_get_output_file():
+        Test that an output file and writer are generated.
+    test_write_to_output_file():
+        Test that text is written to an output file.
+    test_get_all_tweets(mocker):
+        Test that tweets are fetched for a given user.
+
+    """
+
     def test_get_api_client(mocker):
-        """
-        Test that api client is called correctly
-        """
+        """Test that api client is called correctly."""
         with mock.patch("src.extract.tweepy.Client") as mock_client:
             mock_client.return_value = tweepy.client.Client
             result = get_api_client()
@@ -25,10 +40,7 @@ class TestExtract(unittest.TestCase):
             mocker.assertIsNotNone(result)
 
     def test_get_output_file(self):
-        """
-        Test that an output file and writer are generated
-        """
-
+        """Test that an output file and writer are generated."""
         filename = "test_csv"
 
         try:
@@ -50,10 +62,7 @@ class TestExtract(unittest.TestCase):
                 os.rmdir(CLEANED_DATA_DIR)
 
     def test_write_to_output_file(self):
-        """
-        Test that text is written to an output file
-        """
-
+        """Test that text is written to an output file."""
         filename = "test_csv"
 
         try:
@@ -76,9 +85,7 @@ class TestExtract(unittest.TestCase):
                 os.rmdir(CLEANED_DATA_DIR)
 
     def test_get_all_tweets(mocker):
-        """
-        Test that tweets are fetched for a given user
-        """
+        """Test that tweets are fetched for a given user."""
         with mock.patch("src.extract.tweepy.Client") as mock_client:
             with mock.patch("tweepy.client.Client.get_user") as mock_user:
                 with mock.patch(

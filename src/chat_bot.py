@@ -1,3 +1,4 @@
+"""Chat bot that takes input questions and gives a response."""
 # from chatterbot import ChatBot
 # from chatterbot.trainers import ChatterBotCorpusTrainer
 # """

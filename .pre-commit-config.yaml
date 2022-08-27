@@ -6,18 +6,31 @@ repos:
     -   id: detect-private-key
     -   id: check-added-large-files
     -   id: trailing-whitespace
+    -   id: check-docstring-first
     -   id: end-of-file-fixer
     -   id: check-yaml
     -   id: check-json
     -   id: pretty-format-json
         args: [--autofix]
     -   id: requirements-txt-fixer
+-   repo: https://github.com/econchick/interrogate
+    rev: 1.5.0
+    hooks:
+    -   id: interrogate
+        args: [--fail-under=80, --verbose]
+-   repo: https://github.com/pycqa/pydocstyle
+    rev: 6.1.1
+    hooks:
+    -   id: pydocstyle
+        additional_dependencies: ["toml"]
+        args:
+        -   --ignore=D107,D200,D203,D204,D212,D407
 -   repo: https://github.com/asottile/reorder_python_imports
     rev: v3.8.2
     hooks:
     -   id: reorder-python-imports
 -   repo: "https://github.com/igorshubovych/markdownlint-cli"
-    rev: v0.32.1
+    rev: v0.32.2
     hooks:
         - id: markdownlint
 -   repo: https://github.com/psf/black
