@@ -1,4 +1,5 @@
 bandit
+black
 coverage
 markovify==0.9.4
 nose
