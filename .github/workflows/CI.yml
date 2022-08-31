@@ -10,10 +10,11 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v3
     - name: Set up Python 3.9
-      uses: actions/setup-python@v3
+      uses: actions/setup-python@v4
       with:
         python-version: "3.9"
         cache: 'pip'
@@ -33,8 +34,9 @@ jobs:
     - name: Interrogate documentation
       uses: JackMcKew/python-interrogate-check@main
       with:
-        path: '.'
-        badge-location: ./.github/badges/interrogate_badge.svg'
+        path: "."
+        badge-location: "./.github/badges/interrogate_badge.svg"
+        badge-style: flat
     - name: Test with unittest
       run: |
         coverage run -m unittest discover -v -s tests
