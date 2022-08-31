@@ -1,6 +1,11 @@
-<!-- TODO: Add workflow to test on multiple versions of python
-    - Run tests on different python versions
+<!-- TODO: Add build step in CI
     labels: ci
+    assignees: danmassarano
+-->
+
+<!-- TODO: Make repo public
+    Add code quality and dependencies checks in CI
+    labels: ci, documentation
     assignees: danmassarano
 -->
 
@@ -30,11 +35,8 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Add workflows and badges for stuff
-    - Build version
-    - Test coverage
-    - Run tests on different python versions
-    labels: ci, documentation
+<!-- TODO: Install pipenv
+    More for when developement slows down. Will require refactoring CI
     assignees: danmassarano
 -->
 
@@ -53,6 +55,13 @@
 
 <!-- TODO: Add automated way of transforming data sources to .yml
     This is currently a manual process but should be automated
+    labels: enhancement
+    assignees: danmassarano
+-->
+
+<!-- TODO: Improve data cleanse process
+    This is currently OK, but it does sometimes make data lose semantic meaning
+    and results in flaky tests
     labels: enhancement
     assignees: danmassarano
 -->
