@@ -29,8 +29,8 @@ jobs:
       run: |
         flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
-      uses: JackMcKew/python-interrogate-check@main
     - name: Interrogate documentation
+      uses: JackMcKew/python-interrogate-check@main
       with:
         path: '.'
         badge-location: 'badges/interrogate_badge.svg'
