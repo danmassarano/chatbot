@@ -16,6 +16,7 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: "3.9"
+        cache: 'pip'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
@@ -33,7 +34,7 @@ jobs:
       uses: JackMcKew/python-interrogate-check@main
       with:
         path: '.'
-        badge-location: 'badges/interrogate_badge.svg'
+        badge-location: ./.github/badges/interrogate_badge.svg'
     - name: Test with unittest
       run: |
         python -m unittest discover -v -s tests
