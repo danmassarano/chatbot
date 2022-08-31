@@ -18,14 +18,6 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Add workflows and badges for stuff
-    - Build version
-    - Test coverage
-    - Run tests on different python versions
-    labels: ci, documentation
-    assignees: danmassarano
--->
-
 <!-- TODO: Add dockerfile for chatbot
     The chatbot runs on an older version of python so will need to be run in a container
     May need to handle Mac (Silicon and Intel) and Windows differently
