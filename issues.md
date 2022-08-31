@@ -1,3 +1,15 @@
+<!-- TODO: Add workflow to test on multiple versions of python
+    - Run tests on different python versions
+    labels: ci
+    assignees: danmassarano
+-->
+
+<!-- TODO: Add more badges
+    - CI | build | coverage | documentation | versions | style | security | dependencies | quality
+    labels: ci, documentation
+    assignees: danmassarano
+-->
+
 <!-- TODO: Add error handling
     Add wherever applicable - especially important in the data scraping classes
     labels: enhancement
@@ -15,6 +27,14 @@
     Tests seem to require all modules to be prefixed with src but this breaks
     the program when run
     labels: bug
+    assignees: danmassarano
+-->
+
+<!-- TODO: Add workflows and badges for stuff
+    - Build version
+    - Test coverage
+    - Run tests on different python versions
+    labels: ci, documentation
     assignees: danmassarano
 -->
 

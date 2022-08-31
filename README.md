@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/danmassarano/chatbot/actions/workflows/CI.yml/badge.svg)](https://github.com/danmassarano/chatbot/actions/workflows/CI.yml)
 [![Tag Version](https://github.com/danmassarano/chatbot/actions/workflows/tag_version.yml/badge.svg)](https://github.com/danmassarano/chatbot/actions/workflows/tag_version.yml)
-[![CI](https://github.com/danmassarano/chatbot/.github/badges/interrogate_badge.svg)](https://github.com/danmassarano/chatbot/actions/workflows/CI.yml)
+[![documentation](https://github.com/danmassarano/chatbot/.github/badges/interrogate_badge.svg)](https://github.com/danmassarano/chatbot/actions/workflows/CI.yml)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
