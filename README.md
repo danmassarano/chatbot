@@ -1,8 +1,9 @@
 # Chatbot
 
+[![CI](https://github.com/danmassarano/chatbot/actions/workflows/CI.yml/badge.svg)](https://github.com/danmassarano/chatbot/actions/workflows/CI.yml)
+[![docs](https://github.com/danmassarano/chatbot/.github/badges/interrogate_badge.svg)](https://interrogate.readthedocs.io/en/latest/?badge=latest)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![Tag Version](https://github.com/danmassarano/chatbot/actions/workflows/tag_version.yml/badge.svg)](https://github.com/danmassarano/chatbot/actions/workflows/tag_version.yml)
-[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+[![Security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
 Builds a message generator and chatbot based on training data scraped from a
 given person's social media.
