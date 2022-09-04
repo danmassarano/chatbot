@@ -36,7 +36,6 @@ jobs:
       with:
         path: "."
         badge-location: "./.github/badges/interrogate_badge.svg"
-        badge-style: flat
     - name: Test with unittest
       run: |
         coverage run -m unittest discover -v -s tests
