@@ -28,13 +28,6 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Solve the module address issue
-    Tests seem to require all modules to be prefixed with src but this breaks
-    the program when run
-    labels: bug
-    assignees: danmassarano
--->
-
 <!-- TODO: Install pipenv
     More for when developement slows down. Will require refactoring CI
     assignees: danmassarano
