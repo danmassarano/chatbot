@@ -3,8 +3,7 @@ import csv
 import os
 
 import tweepy
-
-from src.constants import RAW_DATA_DIR
+from constants import RAW_DATA_DIR
 
 
 def get_tweets(user, api, text=[], pagination_token=None):

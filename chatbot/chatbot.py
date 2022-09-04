@@ -1,13 +1,13 @@
 """Orchestrate chatbot to run extract, transform, and load."""
-from src.data_cleanse import clean_input_files
-from src.extract import get_all_tweets
-from src.extract import get_api_client
-from src.extract import get_output_file
-from src.extract import write_to_output_file
-from src.markov_chain import load_input_files
-from src.markov_chain import output_sentence
-from src.markov_chain import output_short_sentence
-from src.markov_chain import train_text_model
+from data_cleanse import clean_input_files
+from extract import get_all_tweets
+from extract import get_api_client
+from extract import get_output_file
+from extract import write_to_output_file
+from markov_chain import load_input_files
+from markov_chain import output_sentence
+from markov_chain import output_short_sentence
+from markov_chain import train_text_model
 
 output_file, writer = get_output_file("twitter_dump")
 api = get_api_client()
