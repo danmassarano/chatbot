@@ -91,9 +91,6 @@ class TestDataCleanse(unittest.TestCase):
         filename = "test_csv.csv"
 
         try:
-            if not os.path.exists(CLEANED_DATA_DIR):
-                os.makedirs(CLEANED_DATA_DIR)
-
             clean_data_unstructured(filename, RAW_DATA_DIR, CLEANED_DATA_DIR)
 
             expected_file = open(f"{EXPECTED_DATA_DIR}/{filename}", "r")

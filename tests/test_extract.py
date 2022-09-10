@@ -49,8 +49,6 @@ class TestExtract(unittest.TestCase):
         filename = "test_csv"
 
         try:
-            if not os.path.exists(CLEANED_DATA_DIR):
-                os.makedirs(CLEANED_DATA_DIR)
             expected_filename = f"{CLEANED_DATA_DIR}/{filename}.csv"
             output_file, writer = get_output_file(
                 filename, dir=CLEANED_DATA_DIR

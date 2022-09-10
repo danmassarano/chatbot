@@ -45,6 +45,12 @@
     assignees: danmassarano
 -->
 
+<!-- TODO: Refactor for web integration
+    I'll propably want to embed this in a site which will require some updating
+    labels: enhancement
+    assignees: danmassarano
+-->
+
 <!-- TODO: Add automated way of transforming data sources to .yml
     This is currently a manual process but should be automated
     labels: enhancement

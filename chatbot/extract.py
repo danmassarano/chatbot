@@ -48,6 +48,8 @@ def get_output_file(filename, dir=RAW_DATA_DIR):
         writer (csv.writer): CSV writer
 
     """
+    if not os.path.exists(dir):
+        os.makedirs(dir)
     output_file = open(f"{dir}/{filename}.csv", "w")
     writer = csv.writer(output_file, lineterminator="\n")
     return output_file, writer
