@@ -1,8 +1,8 @@
 # Chatbot
 
 [![CI](https://github.com/danmassarano/chatbot/actions/workflows/CI.yml/badge.svg)](https://github.com/danmassarano/chatbot/actions/workflows/CI.yml)
-[![coverage](https://github.com/danmassarano/chatbot/blob/feec3607bdccf13b4154701a7986eff4717a7e46/.github/badges/coverage_badge.svg)](https://coverage.readthedocs.io/en/6.4.4/)
-[![docs](https://github.com/danmassarano/chatbot/blob/4d064381b7324b855869c01471075b16a422bb76/.github/badges/interrogate_badge.svg)](https://interrogate.readthedocs.io/en/latest/?badge=latest)
+[![coverage](https://github.com/danmassarano/chatbot/blob/main/.github/badges/coverage_badge.svg)](https://coverage.readthedocs.io/en/6.4.4/)
+[![docs](https://github.com/danmassarano/chatbot/blob/main/.github/badges/interrogate_badge.svg)](https://interrogate.readthedocs.io/en/latest/?badge=latest)
 [![Python 3.9](https://img.shields.io/badge/python-3.9-blue.svg)](https://www.python.org/downloads/release/python-390/)
 [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)

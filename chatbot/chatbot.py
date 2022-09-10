@@ -1,4 +1,6 @@
 """Orchestrate chatbot to run extract, transform, and load."""
+import argparse
+
 from data_cleanse import clean_input_files
 from extract import get_all_tweets
 from extract import get_api_client
@@ -9,11 +11,33 @@ from markov_chain import output_sentence
 from markov_chain import output_short_sentence
 from markov_chain import train_text_model
 
+parser = argparse.ArgumentParser(
+    description="Builds a message chatbot using a markov chain"
+)
+parser.add_argument(
+    "-u",
+    "--username",
+    help="Username of person to mimic",
+    required=False,
+    default="",
+)
+
+argument = parser.parse_args()
+status = False
+username = ""
+
+if argument.username:
+    username = "{0}".format(argument.username)
+else:
+    while username == "":
+        username = input(
+            "What's the twitter username we're impersonating (without the @)? "
+        )
+
 output_file, writer = get_output_file("twitter_dump")
 api = get_api_client()
-tweets = get_all_tweets("edthewlis", api)
+tweets = get_all_tweets(username, api)
 write_to_output_file(writer, tweets, output_file)
-# get_all_tweets("elonmusk", "twitter_dump")
 
 clean_input_files()
 
@@ -21,9 +45,9 @@ training_data = load_input_files()
 text_model = train_text_model(training_data)
 
 print("Print five sentences:\n")
-for i in range(5):
+for _ in range(5):
     print(output_sentence(text_model))
 
 print("\nPrint three sentences of no more than 280 characters:\n")
-for i in range(3):
+for _ in range(3):
     print(output_short_sentence(text_model, 280))

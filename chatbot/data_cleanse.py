@@ -44,6 +44,8 @@ def clean_data_unstructured(
 
     """
     print(f"Processing {filename}...", end="")
+    if not os.path.exists(out_dir):
+        os.makedirs(out_dir)
     input = open(f"{in_dir}/{filename}", "r")
     output = open(f"{out_dir}/{filename}", "w")
 
