@@ -1,5 +1,9 @@
-<!-- TODO: Add build step in CI
-    labels: ci
+<!-- TODO: Null directory handlers
+    The distributed version of this will likely contain no directoies for source,
+    staging, and refined data.
+    Add handlers to check whether such files and directories exist, and create
+    them if not.
+    labels: bug
     assignees: danmassarano
 -->
 
@@ -25,11 +29,6 @@
     Most changes will likely break unit tests, whereas integration tests
     should still pass for bugfixes and minor changes.
     labels: enhancement
-    assignees: danmassarano
--->
-
-<!-- TODO: Install pipenv
-    More for when developement slows down. Will require refactoring CI
     assignees: danmassarano
 -->
 
