@@ -1,5 +1,6 @@
 """test_data_cleanse runs unit tests on the data_cleanse module."""
 import os
+import sys
 import unittest
 from os.path import exists
 
@@ -7,9 +8,13 @@ from test_constants import CLEANED_DATA_DIR
 from test_constants import EXPECTED_DATA_DIR
 from test_constants import RAW_DATA_DIR
 
-from src.data_cleanse import clean_data_unstructured
-from src.data_cleanse import clean_input_files
-from src.data_cleanse import clean_line
+PROJECT_PATH = os.getcwd()
+SOURCE_PATH = os.path.join(PROJECT_PATH, "chatbot")
+sys.path.append(SOURCE_PATH)
+
+from chatbot.data_cleanse import clean_data_unstructured  # noqa: E402
+from chatbot.data_cleanse import clean_input_files  # noqa: E402
+from chatbot.data_cleanse import clean_line  # noqa: E402
 
 
 class TestDataCleanse(unittest.TestCase):

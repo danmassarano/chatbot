@@ -1,15 +1,21 @@
 """test_markov_chain runs unit tests on the markov_chain module."""
+import os
+import sys
 import unittest
 
 from test_constants import EXPECTED_DATA_DIR
 
-from src.markov_chain import load_csv_file
-from src.markov_chain import load_input_files
-from src.markov_chain import load_json_file
-from src.markov_chain import load_text_file
-from src.markov_chain import output_sentence
-from src.markov_chain import output_short_sentence
-from src.markov_chain import train_text_model
+PROJECT_PATH = os.getcwd()
+SOURCE_PATH = os.path.join(PROJECT_PATH, "chatbot")
+sys.path.append(SOURCE_PATH)
+
+from chatbot.markov_chain import load_csv_file  # noqa: E402
+from chatbot.markov_chain import load_input_files  # noqa: E402
+from chatbot.markov_chain import load_json_file  # noqa: E402
+from chatbot.markov_chain import load_text_file  # noqa: E402
+from chatbot.markov_chain import output_sentence  # noqa: E402
+from chatbot.markov_chain import output_short_sentence  # noqa: E402
+from chatbot.markov_chain import train_text_model  # noqa: E402
 
 
 class TestMarkovChain(unittest.TestCase):

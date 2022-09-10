@@ -1,3 +1,24 @@
+<!-- TODO: Null directory handlers
+    The distributed version of this will likely contain no directoies for source,
+    staging, and refined data.
+    Add handlers to check whether such files and directories exist, and create
+    them if not.
+    labels: bug
+    assignees: danmassarano
+-->
+
+<!-- TODO: Make repo public
+    Add code quality and dependencies checks in CI
+    labels: ci, documentation
+    assignees: danmassarano
+-->
+
+<!-- TODO: Add more badges
+    - CI | build | coverage | documentation | versions | style | security | dependencies | quality
+    labels: ci, documentation
+    assignees: danmassarano
+-->
+
 <!-- TODO: Add error handling
     Add wherever applicable - especially important in the data scraping classes
     labels: enhancement
@@ -8,21 +29,6 @@
     Most changes will likely break unit tests, whereas integration tests
     should still pass for bugfixes and minor changes.
     labels: enhancement
-    assignees: danmassarano
--->
-
-<!-- TODO: Solve the module address issue
-    Tests seem to require all modules to be prefixed with src but this breaks
-    the program when run
-    labels: bug
-    assignees: danmassarano
--->
-
-<!-- TODO: Add workflows and badges for stuff
-    - Build version
-    - Test coverage
-    - Run tests on different python versions
-    labels: ci, documentation
     assignees: danmassarano
 -->
 
@@ -41,6 +47,13 @@
 
 <!-- TODO: Add automated way of transforming data sources to .yml
     This is currently a manual process but should be automated
+    labels: enhancement
+    assignees: danmassarano
+-->
+
+<!-- TODO: Improve data cleanse process
+    This is currently OK, but it does sometimes make data lose semantic meaning
+    and results in flaky tests
     labels: enhancement
     assignees: danmassarano
 -->

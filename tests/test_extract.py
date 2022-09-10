@@ -1,5 +1,6 @@
 """test_extract runs unit tests on the extract module."""
 import os
+import sys
 import unittest
 from collections import namedtuple
 from os.path import exists
@@ -8,10 +9,14 @@ from unittest import mock
 import tweepy
 from test_constants import CLEANED_DATA_DIR
 
-from src.extract import get_all_tweets
-from src.extract import get_api_client
-from src.extract import get_output_file
-from src.extract import write_to_output_file
+PROJECT_PATH = os.getcwd()
+SOURCE_PATH = os.path.join(PROJECT_PATH, "chatbot")
+sys.path.append(SOURCE_PATH)
+
+from chatbot.extract import get_all_tweets  # noqa: E402
+from chatbot.extract import get_api_client  # noqa: E402
+from chatbot.extract import get_output_file  # noqa: E402
+from chatbot.extract import write_to_output_file  # noqa: E402
 
 
 class TestExtract(unittest.TestCase):
@@ -33,7 +38,7 @@ class TestExtract(unittest.TestCase):
 
     def test_get_api_client(mocker):
         """Test that api client is called correctly."""
-        with mock.patch("src.extract.tweepy.Client") as mock_client:
+        with mock.patch("chatbot.extract.tweepy.Client") as mock_client:
             mock_client.return_value = tweepy.client.Client
             result = get_api_client()
             mock_client.assert_called_once()
@@ -86,7 +91,7 @@ class TestExtract(unittest.TestCase):
 
     def test_get_all_tweets(mocker):
         """Test that tweets are fetched for a given user."""
-        with mock.patch("src.extract.tweepy.Client") as mock_client:
+        with mock.patch("chatbot.extract.tweepy.Client") as mock_client:
             with mock.patch("tweepy.client.Client.get_user") as mock_user:
                 with mock.patch(
                     "tweepy.client.Client.get_users_tweets"

@@ -4,8 +4,7 @@ import json
 import os
 
 import markovify
-
-from src.constants import CLEANED_DATA_DIR
+from constants import CLEANED_DATA_DIR
 
 
 def load_text_file(filename, dir=CLEANED_DATA_DIR):
