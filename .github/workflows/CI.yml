@@ -40,3 +40,5 @@ jobs:
       run: |
         coverage run -m unittest discover -v -s tests
         python -m coverage html
+    - name: Build package
+      run: python -m build
