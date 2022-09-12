@@ -22,6 +22,10 @@ class TestChatbot(unittest.TestCase):
 
     """
 
+    @unittest.skipUnless(
+        os.getenv("TWITTER_BEARER_TOKEN") is not None,
+        "Requires twitter API key",
+    )
     def test_main(self):
         """Test that chatbot is running and returning results."""
         capturedOutput = io.StringIO()
