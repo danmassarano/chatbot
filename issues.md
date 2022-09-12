@@ -4,13 +4,6 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Add integration test
-    Most changes will likely break unit tests, whereas integration tests
-    should still pass for bugfixes and minor changes.
-    labels: enhancement
-    assignees: danmassarano
--->
-
 <!-- TODO: Add dockerfile for chatbot
     The chatbot runs on an older version of python so will need to be run in a container
     May need to handle Mac (Silicon and Intel) and Windows differently
