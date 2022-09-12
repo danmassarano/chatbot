@@ -1,5 +1,6 @@
 """Orchestrate chatbot to run extract, transform, and load."""
 import argparse
+import sys
 
 from data_cleanse import clean_input_files
 from extract import get_all_tweets
@@ -11,43 +12,56 @@ from markov_chain import output_sentence
 from markov_chain import output_short_sentence
 from markov_chain import train_text_model
 
-parser = argparse.ArgumentParser(
-    description="Builds a message chatbot using a markov chain"
-)
-parser.add_argument(
-    "-u",
-    "--username",
-    help="Username of person to mimic",
-    required=False,
-    default="",
-)
 
-argument = parser.parse_args()
-status = False
-username = ""
+def main(argv=None):
+    """
+    Run the chatbot given a username.
 
-if argument.username:
-    username = "{0}".format(argument.username)
-else:
-    while username == "":
-        username = input(
-            "What's the twitter username we're impersonating (without the @)? "
-        )
+    Args:
+        argv (-u, --username): Any arguments passed in at runtime
 
-output_file, writer = get_output_file("twitter_dump")
-api = get_api_client()
-tweets = get_all_tweets(username, api)
-write_to_output_file(writer, tweets, output_file)
+    """
+    parser = argparse.ArgumentParser(
+        description="Builds a message chatbot using a markov chain"
+    )
+    parser.add_argument(
+        "-u",
+        "--username",
+        help="Username of person to mimic",
+        required=False,
+        default="",
+    )
 
-clean_input_files()
+    argument = parser.parse_args(argv)
+    username = ""
 
-training_data = load_input_files()
-text_model = train_text_model(training_data)
+    if argument.username:
+        username = "{0}".format(argument.username)
+    else:
+        while username == "":
+            username = input(
+                "What's the twitter username we're impersonating "
+                "(without the @)? "
+            )
 
-print("Print five sentences:\n")
-for _ in range(5):
-    print(output_sentence(text_model))
+    output_file, writer = get_output_file("twitter_dump")
+    api = get_api_client()
+    tweets = get_all_tweets(username, api)
+    write_to_output_file(writer, tweets, output_file)
 
-print("\nPrint three sentences of no more than 280 characters:\n")
-for _ in range(3):
-    print(output_short_sentence(text_model, 280))
+    clean_input_files()
+
+    training_data = load_input_files()
+    text_model = train_text_model(training_data)
+
+    print("Print five sentences:\n")
+    for _ in range(5):
+        print(output_sentence(text_model))
+
+    print("\nPrint three sentences of no more than 280 characters:\n")
+    for _ in range(3):
+        print(output_short_sentence(text_model, 280))
+
+
+if __name__ == "__main__":
+    sys.exit(main())
