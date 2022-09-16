@@ -23,28 +23,10 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Add automated way of transforming data sources to .yml
-    This is currently a manual process but should be automated
-    labels: enhancement
-    assignees: danmassarano
--->
-
 <!-- TODO: Improve data cleanse process
     This is currently OK, but it does sometimes make data lose semantic meaning
     and results in flaky tests
     labels: enhancement
-    assignees: danmassarano
--->
-
-<!-- TODO: Can the chatbot cache/store trained data?
-    Training the chatbot is especially time consuming, can this be stored or cached?
-    labels: enhancement, question
-    assignees: danmassarano
--->
-
-<!-- TODO: Use cached input
-    Allow for option to skip scraping new data and use cached input files
-    labels: enhancement, question
     assignees: danmassarano
 -->
 
