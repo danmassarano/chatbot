@@ -33,6 +33,8 @@ class TestExtract(unittest.TestCase):
         Test that text is written to an output file.
     test_get_all_tweets(mocker):
         Test that tweets are fetched for a given user.
+    test_get_all_tweets_incorrect_username(mocker):
+        Test that program handles an incorrect username gracefully.
 
     """
 
@@ -112,3 +114,30 @@ class TestExtract(unittest.TestCase):
                     mock_user.assert_called_once()
                     mock_tweets.assert_called_once()
                     mocker.assertEqual(result, ([[t.text] for t in res.data]))
+
+    def test_get_all_tweets_incorrect_username(mocker):
+        """Test that program handles an incorrect username gracefully."""
+        with mock.patch("chatbot.extract.tweepy.Client") as mock_client:
+            with mock.patch("tweepy.client.Client.get_user") as mock_user:
+                mock_client.return_value = tweepy.client.Client
+                api = get_api_client()
+
+                User = namedtuple("user", "data")
+                user = User(None)
+
+                mock_user.return_value = user
+                result = get_all_tweets("123", api)
+
+                mock_user.assert_called_once()
+                mocker.assertIsNone(result)
+
+    def test_get_all_tweets_api_exception(mocker):
+        """Test that program handles authentication exceptions gracefully."""
+        with mock.patch("chatbot.extract.tweepy.Client") as mock_client:
+            with mock.patch("tweepy.client.Client.get_user") as mock_user:
+                with mocker.assertRaises(tweepy.errors.TweepyException):
+                    mock_client.return_value = tweepy.client.Client
+
+                    api = get_api_client()
+                    mock_user.return_value = None
+                    get_all_tweets("123", api)
