@@ -20,8 +20,8 @@ You'll need a twitter developers API key to run the extract module. Add the
 bearer token to your environment to get going
 
 ```sh
-pip install -r requirements.txt
-python chatbot/chatbot.py
+make setup
+make run
 ```
 
 Scrapes the web and stores data in `./input` directory which is then cleaned
@@ -32,6 +32,5 @@ and loaded into `markov_chain` any outputs a given number of sentences
 To run all tests:
 
 ```sh
-coverage run -m unittest discover -v -s tests
-coverage html
+make test
 ```

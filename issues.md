@@ -5,12 +5,6 @@
     assignees: danmassarano
 -->
 
-<!-- TODO: Add makefile to build requirements and run
-    This should allow everything to run on all machines as long as they have python3.9 installed
-    labels: ci
-    assignees: danmassarano
--->
-
 <!-- TODO: Improve data cleanse process
     This is currently OK, but it does sometimes make data lose semantic meaning
     and results in flaky tests
