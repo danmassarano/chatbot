@@ -26,6 +26,8 @@ pre-commit:
 test:
 	@coverage run -m unittest discover -v -s tests
 	@coverage html
+	@rm ./.github/badges/coverage_badge.svg
+	@coverage-badge -o ./.github/badges/coverage_badge.svg
 
 run:
 	@${PYTHON} chatbot/chatbot.py
