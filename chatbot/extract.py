@@ -100,9 +100,17 @@ def get_all_tweets(username, api):
 
     """
     print(f"Getting details for {username}...", end="")
-    user = api.get_user(username=username)
-    print(" done")
-    if user.data:
-        text = get_tweets(user, api)
-        return text
+    try:
+        user = api.get_user(username=username)
+        print(" done")
+        if user.data:
+            text = get_tweets(user, api)
+            return text
+        else:
+            print(f"{username} not found")
+    except Exception as e:
+        print(
+            "\nUnable to connect, please ensure twitter API key is configured"
+        )
+        raise (tweepy.errors.TweepyException()) from e
     return None
