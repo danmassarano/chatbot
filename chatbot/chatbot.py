@@ -3,6 +3,7 @@ import argparse
 import sys
 
 from data_cleanse import clean_input_files
+from data_cleanse import unstage_cleansed_files
 from extract import get_all_tweets
 from extract import get_api_client
 from extract import get_output_file
@@ -50,6 +51,7 @@ def main(argv=None):
     write_to_output_file(writer, tweets, output_file)
 
     clean_input_files()
+    unstage_cleansed_files()
 
     training_data = load_input_files()
     text_model = train_text_model(training_data)

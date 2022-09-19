@@ -20,6 +20,7 @@ You'll need a twitter developers API key to run the extract module. Add the
 bearer token to your environment to get going
 
 ```sh
+export TWITTER_BEARER_TOKEN="YOUR_TOKEN_HERE"
 make setup
 make run
 ```
@@ -32,5 +33,6 @@ and loaded into `markov_chain` any outputs a given number of sentences
 To run all tests:
 
 ```sh
+make setup
 make test
 ```
