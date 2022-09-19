@@ -1,3 +1,5 @@
 """Provides constants for all modules in chatbot."""
 CLEANED_DATA_DIR = "./chatbot/data/cleaned"
+STAGING_DATA_DIR = "./chatbot/data/staging"
 RAW_DATA_DIR = "./chatbot/data/raw"
+UNSTAGED_FILE = "input_data.txt"

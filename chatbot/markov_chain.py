@@ -1,10 +1,7 @@
 """Load data to a Markov Chain model and generate text."""
-import csv
-import json
-import os
-
 import markovify
 from constants import CLEANED_DATA_DIR
+from constants import UNSTAGED_FILE
 
 
 def load_text_file(filename, dir=CLEANED_DATA_DIR):
@@ -25,72 +22,23 @@ def load_text_file(filename, dir=CLEANED_DATA_DIR):
         return text_file_string
 
 
-def load_csv_file(filename, dir=CLEANED_DATA_DIR):
+def load_input_files(dir=CLEANED_DATA_DIR, filename=UNSTAGED_FILE):
     """
-    Load a CSV file into memory.
-
-    Args:
-        filename (str): Name of the file to process
-        dir (str), optional: Path to the input directory (default is
-        CLEANED_DATA_DIR)
-
-    Returns
-        csv_file_string (str): A string representation of contents of file
-
-    """
-    with open(f"{dir}/{filename}", newline="\n") as file:
-        csv_file = csv.reader(file)
-        csv_file_string = ""
-        for row in csv_file:
-            csv_file_string += row[0]
-        return csv_file_string
-
-
-def load_json_file(filename, text, dir=CLEANED_DATA_DIR):
-    """
-    Load a JSON file into memory.
-
-    Args:
-        filename (str): Name of the file to process
-        dir (str), optional: Path to the input directory (default is
-        CLEANED_DATA_DIR)
-
-    Returns
-        json_file_string (str): A string representation of contents of file
-
-    """
-    with open(f"{dir}/{filename}") as json_file:
-        json_file = json.load(json_file)
-        json_file_string = ""
-        for i in range(0, len(json_file)):
-            json_file_string += json_file[i][text]
-        return json_file_string
-
-
-def load_input_files(dir=CLEANED_DATA_DIR):
-    """
-    Load all files in a directory into memory.
+    Load cleansed source file into memory.
 
     Args:
         dir (str), optional: Path to the input directory (default is
         CLEANED_DATA_DIR)
+        filename (str), optional: Name of the source file (default is
+        UNSTAGED_FILE)
 
     Returns
-        file_string (str): A string representation of contents of files
+        file_string (str): A string representation of contents of file
 
     """
     print("Loading data...", end="")
-    directory = os.fsencode(dir)
-    file_string = ""
-    for file in os.listdir(directory):
-        filename = os.fsdecode(file)
-        if filename.endswith(".txt"):
-            file_string += load_text_file(filename, dir)
-        elif filename.endswith(".csv"):
-            file_string += load_csv_file(filename, dir)
-        elif filename.endswith(".json"):
-            file_string += load_json_file(filename, "text", dir)
-        print(" done")
+    file_string = load_text_file(filename, dir)
+    print(" done")
     return file_string
 
 
