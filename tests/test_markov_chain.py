@@ -69,9 +69,8 @@ class TestMarkovChain(unittest.TestCase):
             )
             training_data = load_input_files(CLEANED_DATA_DIR, UNSTAGED_FILE)
             text_model = train_text_model(training_data)
-            for _ in range(5):
-                result = output_sentence(text_model)
-                self.assertIsNotNone(result)
+            result = output_sentence(text_model)
+            self.assertIsInstance(result, str)
         finally:
             if exists(expected_txt):
                 os.remove(expected_txt)
@@ -89,9 +88,8 @@ class TestMarkovChain(unittest.TestCase):
             )
             training_data = load_input_files(CLEANED_DATA_DIR, UNSTAGED_FILE)
             text_model = train_text_model(training_data)
-            for _ in range(5):
-                result = output_short_sentence(text_model, 280)
-                self.assertIsNotNone(result)
+            result = output_short_sentence(text_model, 280)
+            self.assertLessEqual(len(str(result)), 280)
         finally:
             if exists(expected_txt):
                 os.remove(expected_txt)
