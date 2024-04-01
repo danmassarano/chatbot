@@ -1,5 +1,5 @@
 bandit==1.7.5
-black==23.10.1
+black==24.1.1
 build==1.0.3
 coverage==7.3.2
 coverage-badge==1.1.0
